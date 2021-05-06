@@ -1,0 +1,1688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026AB883DE72496464326F868ADEBFAA /* SDMForgotPasswordAuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C407B8AD8C985B598E62353204A5EE /* SDMForgotPasswordAuthorizationViewController.swift */; };
+		02CB2C21802215B087324939C63FB7D1 /* ChooseImgView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9FC6652A744A696716A728D46DD53D /* ChooseImgView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		034B2257498ACA11C91B149661E2732D /* SearchResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 068C522B0C026042E72A529DF586B978 /* SearchResultVC.m */; };
+		044F2AE5376E9CD26F5BA90CE414E525 /* HistoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D80626BE820DB706AE27D933D25B5A3 /* HistoryModel.m */; };
+		067D8DE1CA9E8E6DF53ABF73F98E0A65 /* CallRSACell.m in Sources */ = {isa = PBXBuildFile; fileRef = F784AB3F95788D9E420FD6652334067D /* CallRSACell.m */; };
+		0B98E0BAED5BDAED0F26861C19B5C72F /* SDMHistoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CF90A7CD596AE202C027C34D132006D /* SDMHistoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CBD062A5CE0E98366D484D60980780E /* SDMHistoryTopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 53D2331334A431C97BD0DC5B0DF76A03 /* SDMHistoryTopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E9383B033803963088ABFF93D160A4E /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = EE5DACB8F6DFDAE44A401206EB90F93E /* BaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ED18E800B90C828B0C3583F0B29F73B /* SDMVehicleLocationCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC26C876F90EC588A6AD02F24E0B219 /* SDMVehicleLocationCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE5858C3C11BB264B7D868868947498 /* Pods-SDMMapSearchKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E203D574045B4B2BBB5536DFF7F489 /* Pods-SDMMapSearchKit_Example-dummy.m */; };
+		15D9BD1E6F6A71ACADE595DA2F480DC4 /* CustomWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7D71570482087B355F86231A393213 /* CustomWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		170A6BA0FE94CB2C29A1F708F4C81E35 /* latest1.png in Sources */ = {isa = PBXBuildFile; fileRef = 54FFB935F603FE09D42558F1194EEBF8 /* latest1.png */; };
+		17237FAF4F894631A1E3324701515D86 /* APIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A231BBB31189DC8AB6957D2A1BACC204 /* APIModel.m */; };
+		1A4CB983523B64A2C0C7EFE17766852A /* SDMVehicleLocationCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = A86DB8CFE23C17CABD0A45855E43CBD5 /* SDMVehicleLocationCell.xib */; };
+		1C4457F85EB40427EF4EA60847C1FB95 /* SDMMapSearchKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 392B11902557E33DB6A44A0CC731493A /* SDMMapSearchKit-dummy.m */; };
+		1D886161501762EE5E36C06A6539A190 /* SDMLandingView.xib in Sources */ = {isa = PBXBuildFile; fileRef = A3C307DABE6DE912399582187DA2A70C /* SDMLandingView.xib */; };
+		1E5812604D33AE5D42C2AAA8D9085D20 /* CallRSACell.h in Headers */ = {isa = PBXBuildFile; fileRef = 198245AF268A1A581EDCDEA1D1069F81 /* CallRSACell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F8BE1B76BA41B4597C95B5ADEF5188F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3FEC0B7BE8F244CEC3BE88042A425A /* AppDelegate.m */; };
+		200CFAC26E4C35B97DD40736BF27F5D5 /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71991D769DEA681455225C94EF3CF194 /* BaseTableView.m */; };
+		22806B2968796B3E59FD9D84C43CD47C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		242F463BC799BD72A13EA86AF4432E1B /* SDMHistoryViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 775402F47FD1DA348BAE92ABF31A7722 /* SDMHistoryViewController.xib */; };
+		262C0D8482EBFCC79A0DA460E6878831 /* BrunckpickKindView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E2E41F01EEF46A20309538080EC990 /* BrunckpickKindView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2974BE49BCB2D41381E0D9FD4B67EF19 /* SDMIDMLoginViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = E739A9FB3CF8A14C0D0EA2368B13BC05 /* SDMIDMLoginViewController.xib */; };
+		2A561525D09607E6F81E0F680D84CF00 /* LoginOutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 39E2C3E41961E9AF3661B180775CA1EC /* LoginOutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AF6070F8C8E5D40B94C1E94A518C5B3 /* FavoriteListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA6F24370CD493648929B865D6C74DF /* FavoriteListCell.m */; };
+		2D6E5B037058798EF133A0AA8E5B36DF /* SDMFavoriteViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 649E11FC781D42E7CF679751697D1CEB /* SDMFavoriteViewController.xib */; };
+		2E10DBCEDD15884772F9858D8D4418FE /* SDMForgotPasswordEnterEmailViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = D788287879F724D33A7126430C86B307 /* SDMForgotPasswordEnterEmailViewController.xib */; };
+		2F7AF2016E75D75BE27DDE2DB1C64B39 /* FavoriteListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F0F4DDBB7026BE6DD3CF535B98604DE /* FavoriteListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A6358BE1E8C542A747F374F8612E02 /* VoiceSpeechView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB34C16D8FC129CC6948EA300F3B70E /* VoiceSpeechView.m */; };
+		31F53C99A49D0506018CCA17891C654C /* SearchResultViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB7F0C7846439A7B32120ED8E7BFD36 /* SearchResultViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		323DD4F3400C83E81E2C0063BB2BA041 /* SDMAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C787817130B45311733F1562922F25 /* SDMAPIModel.swift */; };
+		33F312FBA6BEFCA79D6DA08769D81CBB /* SearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58228684C312606B6914185B2160B061 /* SearchResultCell.m */; };
+		353D5474D49789C5807E358D2859F9CA /* SDMFavoriteTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8005840CF18F5CFB8545907353B552E /* SDMFavoriteTopView.m */; };
+		3593C293A617B75DDF770F8F2C34C2CB /* SDMVehicleStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A604E39999C1FF4ACB1816261124580A /* SDMVehicleStatusModel.swift */; };
+		35BEDD485BF072055F24BDA2041B01A7 /* SDMRegisterInputEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4D74F61EF28AC9B9AB0514F30571D /* SDMRegisterInputEmailViewController.swift */; };
+		38F8A2318330E2ACD965D80FAA987423 /* SearchView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8A2445B103BFB713FF2CB8016297D424 /* SearchView.xib */; };
+		39FAE7017CF90C2EE06EC5C4BC0491B3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA6A29EECF866550676195D026435B3 /* ReplaceMe.m */; };
+		3C2D60D3225C1BA469F6DC19589104C0 /* SearchResultVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B196BF099D6F3369A450C8FC7F3450F5 /* SearchResultVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		401174E7BC3481A0DEF1D5861000EE53 /* PhotosModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4896AF86632B1B5EE741E5410F55951E /* PhotosModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		435F0CE9333922C915C9439CE9D817AC /* toyotatype_bold.otf in Sources */ = {isa = PBXBuildFile; fileRef = 38F86DF01D385B4336E5DB9879B5DBD2 /* toyotatype_bold.otf */; };
+		441294A83F77D685104B15D4C0A4453B /* FavoriteListCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 94256F560114F0BE1BAA0B4548481088 /* FavoriteListCell.xib */; };
+		441AB2796868BDFCE5ADF059088070B4 /* TempOneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9552BF60549A349A398FB51FAA86F9A4 /* TempOneView.m */; };
+		4489E43178CC7920C79B8AEB890F1DE6 /* SDMLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FA5CC7AA2BDD69D81D576248FBD869 /* SDMLocalizable.swift */; };
+		45242FDF1B06F0CD91DB1B46F10DD053 /* MyServiceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1951FF935EDE603F46D669A76B73697E /* MyServiceVC.m */; };
+		45C561FFF3B5674A2367663B30E7FD90 /* SDMCKScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D1D83042865E76A5422750E8F1C489 /* SDMCKScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		472C6EE335BD492A5F03621F2736BA6F /* JumpVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D4BE6BC7A1534B2EA2FF50889665462E /* JumpVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48148E8B2A9A0A53ACF544911FF89849 /* SDMMainKindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B613F0ACAD62D2C1D27A5BBB9AE100D /* SDMMainKindView.m */; };
+		4928E92488E09A55F157CFC04564932F /* SDMRegisterInputEmailViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 118395208025E153C6CBB1718E5226EE /* SDMRegisterInputEmailViewController.xib */; };
+		4A25DF466C7D4765B4F39A1148D64C0A /* ToyotaType-Regular.ttf in Sources */ = {isa = PBXBuildFile; fileRef = BB5BCC0865323C33DF375486F5372C41 /* ToyotaType-Regular.ttf */; };
+		4BE6A5E01A6ABE0D1270AD9B2524335A /* toyotatype_regular.otf in Sources */ = {isa = PBXBuildFile; fileRef = BF90C3DC08F5B00BA9281AFFB7A39617 /* toyotatype_regular.otf */; };
+		4DA94E7C05448C9D78442C79A45CB24B /* SDMHistoryTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99753398CF95056AA1405DC2A25A3A2E /* SDMHistoryTopView.m */; };
+		4EFCF0780DE2F053A64C00BC2C676B6A /* HomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 085B73BCF0966B1982EEE2F27C3CDC24 /* HomePageVC.m */; };
+		59128DBEE02A6D49C1BA44C0B4732468 /* MapBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC84108F7E625BFE2581A5D1100A7DE /* MapBaseViewController.m */; };
+		5A3FFE4782A2E2250F942AECBD661807 /* CallRSACell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 97297EF8557D80849F72142378E55F98 /* CallRSACell.xib */; };
+		5AD35D17A0ADF48E46BC368D52E6AE7D /* SDMDrivingRangeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E186C2EEE3A8B453765175A4641EFD6 /* SDMDrivingRangeCell.m */; };
+		5E988984391C048E945CBEE94D45A1B4 /* SDMBrunckPicksView.h in Headers */ = {isa = PBXBuildFile; fileRef = 83EFFCDE13D417AF4A7CF778287A2F8B /* SDMBrunckPicksView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64DF9B0848C8AAF3FD4754E114AE0728 /* SearchTopView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 69ECFD47CA79FFF40DD7751B2610AA9E /* SearchTopView.xib */; };
+		6523FAA6B7797FE29451E9EB0B871C73 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7034D3DA9F49409BC8C51974397F9DFB /* HttpRequest.swift */; };
+		690492E3984C064AA8894A8E58E2EE77 /* SDMMapMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212E3A49BAF7260A5AE9860921E6A964 /* SDMMapMainController.m */; };
+		69B46C2B04A55D9BED2D43405D1CD068 /* SDMRegisterInputUserInfoViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = CA7CE46DC61F1F97BBC4DE7928D98F57 /* SDMRegisterInputUserInfoViewController.xib */; };
+		6B49B90CB1D59854DFA612D6C5621AC1 /* SDMMapSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD136F0FB2559AF2630752647D86FB3B /* SDMMapSearchResultViewController.m */; };
+		6BA39D8476DF654E9F2CC89D4FDCF56C /* RequestHeaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 389B54D83E0CBF23DEBD3E4A1BDB5B1B /* RequestHeaderManager.m */; };
+		6C2D77EF85361062F8D68A32F77D73D0 /* Rectangle6.png in Sources */ = {isa = PBXBuildFile; fileRef = 345E19CCC83202810F94F013FF317A46 /* Rectangle6.png */; };
+		6EFE45C9C8CCFD90FEE77E04DBE6F3A0 /* SDMFavoriteTopView.xib in Sources */ = {isa = PBXBuildFile; fileRef = DE9BF3F3B65AEF28C3CC6CED1E257C29 /* SDMFavoriteTopView.xib */; };
+		6F0A92D93739C9303BFAA2DAD949F29E /* SDMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE6692D5E62FBF28E834F192FA04C4 /* SDMLoginViewController.m */; };
+		6F3844D4794D57CA8A7C3AA5C3775E72 /* latest2.png in Sources */ = {isa = PBXBuildFile; fileRef = BD9890BB4025E9A21548857895EA7893 /* latest2.png */; };
+		7014BD326E9F8D8DC5E157781DC38C76 /* MapBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A1AE066ADAECB9E9E4CB1CA74E38A49 /* MapBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70DA6BF52A9422DADB2A2FCA6D7916F0 /* SDMDrivingRangeCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = DF7D23D3B069275F3697C179766A7678 /* SDMDrivingRangeCell.xib */; };
+		71CB4EB43A59A28C39173A8D60EAE12E /* SDMForgotPasswordEnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E953BB5544352A074835419CC9665E74 /* SDMForgotPasswordEnterEmailViewController.swift */; };
+		748CD4EE0753FCEC640F3D3203DCCB66 /* SDMDealerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C3A83713214F3AC6DFD8CFD03BAB9407 /* SDMDealerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76C16D50D45AB765FEE77CC4A58B6F90 /* ToyotaSearch-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = B830EAAA298E2342CAB6B58E39E98543 /* ToyotaSearch-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		787B776311AB2ECAB2930F1912D5D6D2 /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6B3B86CB19F6E95770070489DF77A4 /* BaseViewModel.m */; };
+		78CF8880A3BC33885E7E9DA353E89661 /* PhotoCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 14DECFDECAC69CD93745679451BFC7AA /* PhotoCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7992D31F6E831FD4B0A62F7C0188C27E /* SDMServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9E3FB64C67BC380226316021778E87 /* SDMServiceConfiguration.swift */; };
+		7B5739E358FEB0B09D18118E21D0CA36 /* SDMForgotPasswordEnterNewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5110ABC57F7443D40D0ACE334F6FE2E /* SDMForgotPasswordEnterNewPasswordViewController.swift */; };
+		7C2999354DC7ABCB19CDCC51421C27E5 /* SearchResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC67FBB1741AAF2C1ADBFC50D3B1E31F /* SearchResultModel.m */; };
+		7C51FEE9B8118DA9689B92EB677A6740 /* BrunckpickKindView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E1F50DC92AC3B19F7CB1340635F25C /* BrunckpickKindView.m */; };
+		7CC88DE6DCE0EC89B3085B17D29A017B /* 2021_Prius_Prime_Red_005-600x352 1.png in Sources */ = {isa = PBXBuildFile; fileRef = 93A0EC1023358D6EE0FA39ADA702CD48 /* 2021_Prius_Prime_Red_005-600x352 1.png */; };
+		7D90A8232A5CF39DE08D347144C6356A /* ChooseImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AAC510A72E7F5D51F1315FAB2BE4B9 /* ChooseImgView.m */; };
+		7DAD4EDE926F7BF8051AE4AE8135F428 /* HomePageVC.h in Headers */ = {isa = PBXBuildFile; fileRef = B441118F16A77E1F709D7CD16D5DBE6C /* HomePageVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E72AB1C3476A6ED06C48E3F4390DEE6 /* SDMMapSearchResultViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8748DCA81BF1DD9AC218D6FD0A8FA0 /* SDMMapSearchResultViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FA21885FC7097D4B906F6150BF24D1D /* SDMMapSearchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BB89A9133644D295108F17C14E1E6F /* SDMMapSearchDetailViewController.m */; };
+		80C420D7606A270FFCD86A92AC8937C2 /* SDMMapHistoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D18E1E02F9B3196BA3F1F887B9CCD469 /* SDMMapHistoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8158F2CD4AE0A8D2CFBBC8DCDA07D70F /* SDMUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AC471B340CBB923E15B194B04E855C /* SDMUserDefaults.swift */; };
+		83839FBA5034A15D26387200C7FCB072 /* MapHistoryView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 68AF348AD441D12740D20894486856AB /* MapHistoryView.xib */; };
+		83F72719D189236A3917B944E203F7CF /* SDMSearchResultListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B6671B846E356AF8E9576EA06706E541 /* SDMSearchResultListVC.m */; };
+		8410B08EF06C0ECCB288983F643C78BF /* PhotosModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3ABFF59F3F00353D1F447F05339E4A /* PhotosModel.m */; };
+		868857FC70C73B06B91084F129AB50B9 /* MapHistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 587A1B6C6058C1AB23E57E2C979CE648 /* MapHistoryView.m */; };
+		891D06DE070F25F13F8B722EB38E7D6A /* HistoryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CCEFA1EB2DCD47AE97CE66B43267F744 /* HistoryModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		898E7E460AD3FC46CAB373B627006A0C /* SDMVehicleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E41CDEC2CD6D29CDCF88F234FDE5AFC /* SDMVehicleViewModel.swift */; };
+		89FD1670D72124575B752CE66F71F7E9 /* SDMLandingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FF5147B44974BBF3CCA6C9FE51A85D /* SDMLandingView.m */; };
+		8B5C32AEAB353B423B1245A913932AD6 /* TempOneView.h in Headers */ = {isa = PBXBuildFile; fileRef = C70992393A460FFC83E285AD183B1C6B /* TempOneView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DB9372A64317BEF5AD2CBC8FCFA1202 /* SDMVehicleLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE07885746AE3F855615C73E0E073737 /* SDMVehicleLocationCell.m */; };
+		8E51C5EDF3F034FB0756E6CBB557E46D /* latest5.png in Sources */ = {isa = PBXBuildFile; fileRef = FB3AD4B192F8EB0BB3DD4D8988A61FF7 /* latest5.png */; };
+		8FEC277845EAC04B0B6A5B533C185643 /* SDMFavoriteViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F9CD8E039C709BEFF70AE8517EEA0FEC /* SDMFavoriteViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92AA8E59551616B8BF092CF09D5C719A /* SDMRequestStructureManager+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFBA0B1B339567273F95036C8351754 /* SDMRequestStructureManager+Map.swift */; };
+		92EEEE64F44120C83470CE631B794FB6 /* SDMMapSearchResultCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C983A10981E1217A9F20E29E86D9938 /* SDMMapSearchResultCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9332FC3F128C4134729A14D5DA9987E9 /* SDMFaVoriteAndHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BF0C741402E4BA2344BF32FE0F8E2A /* SDMFaVoriteAndHistoryViewController.m */; };
+		933FD6AEBB9AC8BF6DEC1E0DF0A0874C /* LoginOutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6661BB6764275FB2B2180A164A6C72FF /* LoginOutView.m */; };
+		99689BEBF59C88EC1B94DFBB5EC7B53D /* SearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC4391707CA167E0F420D9CAAFFD3A2 /* SearchView.m */; };
+		99E8E5C31E1752CBFC58FE98DA9B242F /* SearchResultViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 346813A025D6C38AA7C4AD4BF5F15C67 /* SearchResultViewModel.m */; };
+		9A111111BF486F9B38A7EBC61BCCB2B3 /* latest3.png in Sources */ = {isa = PBXBuildFile; fileRef = 194C6CB3B412FEBD42B6DCFC78A02352 /* latest3.png */; };
+		9AB67559EC0F2A044275767017989E5F /* SDMBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A291122406E60F41A309972565598F /* SDMBaseModel.swift */; };
+		9D1E6DF1B7D0214BD8800559F8E5E5E6 /* Pods-SDMMapSearchKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0595070DA3723A55922782D48861D250 /* Pods-SDMMapSearchKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F376813A32581412DE95CDFEFE97FCB /* SDMMyCarLocationView.xib in Sources */ = {isa = PBXBuildFile; fileRef = F6212A642C51DFF955D6C792B01A2270 /* SDMMyCarLocationView.xib */; };
+		9F861AF9DB686548DBD2360B04F24BC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9FA4DC8CF82175062C43D91ED13552B3 /* Rectangle1.png in Sources */ = {isa = PBXBuildFile; fileRef = 3624D1E9BF7A760A395C178F0171382B /* Rectangle1.png */; };
+		9FEF5BE01A738358800E610568E4A432 /* SearchResultModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8330632572C05D6388394FB6ABA32528 /* SearchResultModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A07742C219773C5A52E4FE5C1B6DEAEB /* SDMMenuViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E9DA4130AE3B9332086180FC065921D8 /* SDMMenuViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0A492796BE6B09511C4334872710A6A /* SDMBrunckPicksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA11B6F4BA71C04DA43A8E9C63D9228 /* SDMBrunckPicksView.m */; };
+		A263F9B4BCD76A1837ED9EC64F6E1946 /* SDMMapSearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F98751C1B7ABCA21E6C68DAA6011A76A /* SDMMapSearchResultCell.m */; };
+		A4FE93001ABF248850BEB20B419B3F34 /* RequestHeaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FF2778AE6F7DA3A0257906D630B8AF53 /* RequestHeaderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5BBE0F8983855483B86DFED7071D314 /* SDMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3CD3E7244AD3733A9F8195E301BC20 /* SDMMenuViewController.m */; };
+		A62344D642559A1938AC0481AA6B6D1B /* SDMSearchResultListVC.xib in Sources */ = {isa = PBXBuildFile; fileRef = 370546F2EF2A079F6CC847E2D4102C2C /* SDMSearchResultListVC.xib */; };
+		A7AD95B64D03D275B094664FA17FD888 /* CustomWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F79D838441053C10F3A3F121D4F3A /* CustomWebView.m */; };
+		A93893866B3C15FF2E8D7FFBD8117D48 /* ModelCar.png in Sources */ = {isa = PBXBuildFile; fileRef = 1B8ECDCBEA49DEE8270C8EB728B1E1AB /* ModelCar.png */; };
+		AA565B583A98FFC072540828BE9EE226 /* SDMSearchResultListVC.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4623747EB47A758EDCE594C070C1CE /* SDMSearchResultListVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA7CC275BCFA3D48518BF1224B722346 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A2A37D9AC88A387B280A243267BD4B /* BaseViewController.m */; };
+		AAD1F1D7E0025B3EE43F24E861921DBD /* BaseTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C2F8E799FEC86EA14DBC3990C40312 /* BaseTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABB309BD106E0F943E420E66DEB5842C /* SDMForgotPasswordAuthorizationViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1DD36E4BB33A8989B8A7929C8FC9C2CE /* SDMForgotPasswordAuthorizationViewController.xib */; };
+		AC7867A4CFD5D415BCE367987B258781 /* BaseViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = ED77D1BDCA0F880A390F471A338CAE70 /* BaseViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC9BD1081FCED7835BE61C0C0E5B1854 /* SDMRequestStructureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F177245B2E9B9316B02D52DE6F004BD /* SDMRequestStructureManager.swift */; };
+		AD3E4AFDBCFA6495C9E0DAD54BC13579 /* SDMLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 763E04DDD04FD38EA7ADDAF6EC85AAE4 /* SDMLoginViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF9C0043E9981B426A106D92B046BECE /* BrunckpickKindView.xib in Sources */ = {isa = PBXBuildFile; fileRef = F7D82EBD36C276A1B91BD2E7D66F40A6 /* BrunckpickKindView.xib */; };
+		AFD86940D6D746B8AB0B910C1DF40A95 /* SDMUserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BF1F3D6F0D874969CD568440899A24 /* SDMUserDataManager.swift */; };
+		B22E6A12640F6B5D136591E65CC282B7 /* FavoritesView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34CF8B53242463EC82E7BA3757185D2 /* FavoritesView.m */; };
+		B4C6593E3439C33C193B704E0D00B09D /* SDMFavoriteTopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7835538299C8A657BFB2A9C2B313E522 /* SDMFavoriteTopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8623E85EEB40274284FE4AA91D132CA /* SDMMapHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D31923FF5D883164B07EC554DAB0C4A7 /* SDMMapHistoryViewController.m */; };
+		B87370B9C50274C42DFA2D67458C8105 /* SDMChooseKindView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 25A9174006FFF7CBC4992122B2A6CE12 /* SDMChooseKindView.xib */; };
+		B8BFB8B2F87EBEBF98483C97A0F095F9 /* SearchResultCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = CB7B4C43E5F862D3F50CBFC1FD581AA7 /* SearchResultCell.xib */; };
+		BB50A8A5E678BDE0EF72212DB8F4136E /* SDMForgotPasswordEnterNewPasswordViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 94B0585A437DB0ADF0B7B90827F74759 /* SDMForgotPasswordEnterNewPasswordViewController.xib */; };
+		BB7A70E0601EB9C67D0ABE8FC1564A5F /* SDMRegisterInputUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547AB5DF390AA3EAD7FDAB93C7145ABF /* SDMRegisterInputUserInfoViewController.swift */; };
+		BC1F8ADE3098FD42AF1EB55DD020472E /* SDMBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1BF6D3DF815E1C1D7A0F481CB6C759 /* SDMBaseViewModel.swift */; };
+		BCD43FDB350AC6595BA391E05F7EF793 /* SDMFindMyCar.h in Headers */ = {isa = PBXBuildFile; fileRef = F478FB9B629CAB9716DBD3CFD5987CB8 /* SDMFindMyCar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDAEBD233CF1B05EE3C99174A18FD63B /* SearchTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 995D1AAF0F4916E014666489AA3B1451 /* SearchTopView.m */; };
+		BF5502065EE372CD7278D2B2D3CE0FAF /* ToyotaType-Bold.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 9F900B2275D051B629F1075CBC5C77EB /* ToyotaType-Bold.ttf */; };
+		C16B137BE787C8F0F812EB9DC4CA16D4 /* APIModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8D1CB6AB67510A76A7342734054E4E /* APIModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C282B04B2792BD5BF9043A1C77338214 /* SDMMapSearchKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABD5262D5C26F040FE041B0CB4DE76E8 /* SDMMapSearchKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3011C26577F0970543085FAFC058C66 /* RootTabbarVC.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4BA9A15C872360C429D7DA416AFD31 /* RootTabbarVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4702CE546258704801976A71DE6EC54 /* SDMRegisterSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA6E235A0E2A923C3D8DFFD42931D0 /* SDMRegisterSuccessViewController.swift */; };
+		C4D08070771DA8066E0A301F8B867986 /* SearchTopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 467C291079AA2E5EE360088D3794BAE5 /* SearchTopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4D297F4E9F6F270427FB29294C49456 /* SDMChooseKindView.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0A62E50051B92999559A47A4909EE4 /* SDMChooseKindView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C51C361CFC2F95045C55AC9EED048014 /* SDMHistoryTopView.xib in Sources */ = {isa = PBXBuildFile; fileRef = C78EF2114EB938D7C3F2F4B5D3684F4E /* SDMHistoryTopView.xib */; };
+		C5322D6821A9FD8EA4418EC6BE743647 /* SDMFindMyCar.m in Sources */ = {isa = PBXBuildFile; fileRef = E21EE71A497474E637A7CCCEBA4D0ECB /* SDMFindMyCar.m */; };
+		C5C8183A78019153D4A8B9B242EC0E94 /* SDMFaVoriteAndHistoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A0DD9BEE744EC8E6F3AF7317B9716B /* SDMFaVoriteAndHistoryViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C833B786055A1ABA9109230D562B9D32 /* Pods-SDMMapSearchKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D4A9B763BD414BB16E565446159BC4 /* Pods-SDMMapSearchKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C937F4C20062D4F061AB8F80213BFAE7 /* SDMMyCarLocationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38C817C5EDF019D10C68AA24CF75B3D4 /* SDMMyCarLocationView.m */; };
+		C9A757E0E38103B75856E6BBD034CFAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CA632EFC5BD4E9BFD0B5FA909653A949 /* Rectangle4.png in Sources */ = {isa = PBXBuildFile; fileRef = 7680EBDCC8158D0674B28C4499AF6CAB /* Rectangle4.png */; };
+		CA93D88E4CAFCBFDBB0BC0B2B5CF4B18 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F37C0F5180E29221B5195A0747514C /* AppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB67D689EBB9FC5ABDA4CE41E857D568 /* SDMHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC5A4E7CB7FA18E5D4D0B4D535C7905 /* SDMHistoryViewController.m */; };
+		CD895773D0060095904A1C8FB9DF0B85 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C0F30A597FCA88AA7A8D8C857D7F7 /* PhotoCollectionViewCell.m */; };
+		CE71BFD715896A518301AB67BAC031D0 /* MapHistoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46395549EA7C27FDEFC6E3384238243C /* MapHistoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF3C7060BCAC47B3AC8FC0DB7B3E7E01 /* SDMLoginViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = BD95EB61897CBF525D5654D366034BAD /* SDMLoginViewController.xib */; };
+		CF6D98F282B0BAD645928DEA9A5BA15C /* VoiceSpeechView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8944AB5FB39EA125A9F175084B2BC77 /* VoiceSpeechView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D01938C74C4ED5BA947F6AFDA4326177 /* PhotoCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7B427F312EBE52B8B9524098C24AFD10 /* PhotoCollectionViewCell.xib */; };
+		D18B011ACDF2F4A63A88358A7634EFCF /* Rectangle3.png in Sources */ = {isa = PBXBuildFile; fileRef = 0E5A3B38421E3BF3CB0E13E8E9E68F0A /* Rectangle3.png */; };
+		D38AB1CF3EE0F3038823201A4D28F5B6 /* LoginOutView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1089C8558B5226A19B44EF1C187B1C4C /* LoginOutView.xib */; };
+		D53DDAD6AA082F8EB0C3B0EF2659F86C /* SDMSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE1016012A41D21272A1214B3C591B2 /* SDMSessionManager.swift */; };
+		D5A4C8F759481A378FB7DB86C66A7F0E /* SDMToyotaRequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D69D7CD4F8EC14AAAF784D155A7496B /* SDMToyotaRequestInterceptor.swift */; };
+		D6E04EAB7063BE0571327CB755A72360 /* FavoritesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 48709CCF8F0809645ECBB932D3189790 /* FavoritesView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6F1A1A431F294A772BB0B3476CD130F /* SDMMainKindView.h in Headers */ = {isa = PBXBuildFile; fileRef = 89F344C7928C0521C11161A466599480 /* SDMMainKindView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D89AD9C6B54C2CCD7AE228652E2F6F6E /* VoiceSpeechView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0D339455BC55CAF560D67627D8B3EE83 /* VoiceSpeechView.xib */; };
+		DB788FB8D3545371785071B103692819 /* toyotatype_semibold.otf in Sources */ = {isa = PBXBuildFile; fileRef = 230AD691F20DFD10F07ADD3329CB224B /* toyotatype_semibold.otf */; };
+		DFA790CB11CE3ECDEDFBF41F2893AADD /* SDMMapSearchResultCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 91E935194EEA953BE47312E983176340 /* SDMMapSearchResultCell.xib */; };
+		E059288D6000E2E51EB7ED8C3BD468BF /* SDMDrivingRangeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E8C93DFFD859841F4BD1E82ADDD85325 /* SDMDrivingRangeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0DD76686A9248F727710885AF6BB860 /* SDMMapMainController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1CEDB418FAA180A57B067052A72B39 /* SDMMapMainController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1F87950D1EB63F15C51BF8580A70F5B /* SDMSwiftToOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E41010BC54C942D02106FEFC4F9BE8A /* SDMSwiftToOC.swift */; };
+		E2B108A67BD6C6E7BEFB61CDFFA3AF03 /* Rectangle2.png in Sources */ = {isa = PBXBuildFile; fileRef = B55000E4103A59CACF3AC978D56C92B0 /* Rectangle2.png */; };
+		E5BFE3E58F9451423E6CEB42500024F5 /* MyServiceVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 74ED4AFB5C5087A9EACDAD2B5863916C /* MyServiceVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E61ABEF2982D58F852F3AD48751C29EA /* Rectangle5.png in Sources */ = {isa = PBXBuildFile; fileRef = D043FB346A544BC412CAE0DA29F9AAE6 /* Rectangle5.png */; };
+		E8C26765C9DFF52D2C34C7A779AB7677 /* SDMCheckVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39B0FA6907D7BE461F9D5993E9AF65 /* SDMCheckVersionModel.swift */; };
+		E8EA249E874E504D1779BFDC80EC2D85 /* SDMChooseKindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DC1FA3929AF9C7FDF98E57D728B126 /* SDMChooseKindView.m */; };
+		E9E598234227D6DFA88B35921ED49F93 /* SDMDealerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B36D6B963F9033E6FAFF0CC87E00F8A /* SDMDealerViewController.m */; };
+		EAE44AB6B29317DE40D3E72CF9DDE2C1 /* VehicleViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4958CB0996A9808640F8CC0D1B5641F6 /* VehicleViewController.xib */; };
+		EB6C70164764C9616AAA4310BD300B58 /* RootTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2813F7C433AED73CA0B2ED49B251A056 /* RootTabbarVC.m */; };
+		EBB3E3D4ED7A8121B1A1B4AE6C5109BE /* SDMFavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3BA2114542FD2F8232274A314C59E7 /* SDMFavoriteViewController.m */; };
+		EC0B0C1F7F74C4EF71D7D986E9594E23 /* JumpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 716819E58A78C0A2483504DB4B498641 /* JumpVC.m */; };
+		ECBAA3523138C22B3388073F68E3F34B /* SDMMapSearchDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F417969B4D0F7A0EE347289A796DDD87 /* SDMMapSearchDetailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECDF4F19A0882A63C57883C3F23C6119 /* SearchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA6A0FEAEB45511A665AC4B1E678476 /* SearchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED866C0FA0755A4CF6221790FDCEF116 /* SDMIDMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A63A5B278B50405545FCD94E45B14EB6 /* SDMIDMLoginViewController.swift */; };
+		EF684C5C1BDBFDAAFB72CCCA9CB78001 /* latest4.png in Sources */ = {isa = PBXBuildFile; fileRef = 0C153619964BE7C335AD7B0AE1BDABF6 /* latest4.png */; };
+		EFD30F7A0499C6CC7E26A748CCE4B034 /* SearchResultCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FB2502EBD5373DADBC0FF2395FBE7F3F /* SearchResultCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F13C0F5A8A936A93D1124C702284C08F /* VehicleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24284E92B38D28863D90D00089116809 /* VehicleViewController.swift */; };
+		F4426DF680EF4CE5EDD7F06017401C45 /* SDMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2338DCE090EB2AD8116CEECF5E6F367 /* SDMBaseViewController.swift */; };
+		F7798995368C0A31FBF6A3FEE27EE8BA /* FavoriteListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4204A38BCD326BC205214BA9117627 /* FavoriteListModel.m */; };
+		F7BA96B3D71F7E2B838510C1907D35F9 /* FavoriteListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FC20173089DA8A99C4F933AC75F99310 /* FavoriteListCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA3750F23490A00A548E206AD50D0EC2 /* SDMLandingView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E003EE8736E94DAF2A75704B38BF51 /* SDMLandingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC02E6DFB9D12CC3765D3A8A9E44F3D9 /* TempOneView.xib in Sources */ = {isa = PBXBuildFile; fileRef = DB8D9851D74FDF08267B9493F9783B1B /* TempOneView.xib */; };
+		FC5270C335B5DB0342AFFDA27FA21AE9 /* Pods-SDMMapSearchKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E40DAF232809FCAE51A8CA0E4D766F /* Pods-SDMMapSearchKit_Tests-dummy.m */; };
+		FDD9463B4901AC715EB42C04F37A0D9D /* ToyotaType-Semibold.ttf in Sources */ = {isa = PBXBuildFile; fileRef = 2177258140951B4B8B1C59682F18164D /* ToyotaType-Semibold.ttf */; };
+		FDE9715BDB7410D4FCB72CA3DA5F97D4 /* SDMMyCarLocationView.h in Headers */ = {isa = PBXBuildFile; fileRef = B66B89BA7E1E7E78B0149F46854E2A41 /* SDMMyCarLocationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF94AA966D413002F712A7676ED3BE07 /* SDMCKScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FF94FF5F273A97B129E3C684308547 /* SDMCKScrollView.m */; };
+		FFDAB9A474FAEE0F74203C10148EB4A7 /* SDMRegisterSuccessViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 17572E297CF8C8FBB33ADA575FB23F33 /* SDMRegisterSuccessViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09E6E332DEFF4AA9AF8C169923AFF528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6B4A6795FAF2ACEF2888A1266E076D9;
+			remoteInfo = SDMMapSearchKit;
+		};
+		ADA2006482A81C58C69020D345AAB3DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879A5EE6798CB7E52290B650A76D8D1B;
+			remoteInfo = "Pods-SDMMapSearchKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03BF0C741402E4BA2344BF32FE0F8E2A /* SDMFaVoriteAndHistoryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMFaVoriteAndHistoryViewController.m; sourceTree = "<group>"; };
+		0464D7FD17708BA1E80169A410894A9B /* Pods_SDMMapSearchKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDMMapSearchKit_Tests.framework; path = "Pods-SDMMapSearchKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0595070DA3723A55922782D48861D250 /* Pods-SDMMapSearchKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDMMapSearchKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		068C522B0C026042E72A529DF586B978 /* SearchResultVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SearchResultVC.m; sourceTree = "<group>"; };
+		07D2F39A487FC2E086B475FED504F209 /* SDMMapSearchKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SDMMapSearchKit.modulemap; sourceTree = "<group>"; };
+		085B73BCF0966B1982EEE2F27C3CDC24 /* HomePageVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HomePageVC.m; sourceTree = "<group>"; };
+		0917756474CE6D0B3FCD115F801848B2 /* Pods-SDMMapSearchKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDMMapSearchKit_Example-Info.plist"; sourceTree = "<group>"; };
+		0A71C826CC10598BCE7FE484963CB26A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0C153619964BE7C335AD7B0AE1BDABF6 /* latest4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = latest4.png; sourceTree = "<group>"; };
+		0CF90A7CD596AE202C027C34D132006D /* SDMHistoryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMHistoryViewController.h; sourceTree = "<group>"; };
+		0D339455BC55CAF560D67627D8B3EE83 /* VoiceSpeechView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = VoiceSpeechView.xib; sourceTree = "<group>"; };
+		0D3CD3E7244AD3733A9F8195E301BC20 /* SDMMenuViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMMenuViewController.m; sourceTree = "<group>"; };
+		0D69D7CD4F8EC14AAAF784D155A7496B /* SDMToyotaRequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMToyotaRequestInterceptor.swift; sourceTree = "<group>"; };
+		0DA6A0FEAEB45511A665AC4B1E678476 /* SearchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SearchView.h; sourceTree = "<group>"; };
+		0E5A3B38421E3BF3CB0E13E8E9E68F0A /* Rectangle3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Rectangle3.png; sourceTree = "<group>"; };
+		0F3BA2114542FD2F8232274A314C59E7 /* SDMFavoriteViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMFavoriteViewController.m; sourceTree = "<group>"; };
+		1089C8558B5226A19B44EF1C187B1C4C /* LoginOutView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LoginOutView.xib; sourceTree = "<group>"; };
+		118395208025E153C6CBB1718E5226EE /* SDMRegisterInputEmailViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMRegisterInputEmailViewController.xib; sourceTree = "<group>"; };
+		12C407B8AD8C985B598E62353204A5EE /* SDMForgotPasswordAuthorizationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMForgotPasswordAuthorizationViewController.swift; sourceTree = "<group>"; };
+		13AC0F7DA4EC265CA3209990D11CB914 /* SDMMapSearchKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDMMapSearchKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		14DECFDECAC69CD93745679451BFC7AA /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		15C9981FED1030CD198B1CD2ABE191CF /* Pods-SDMMapSearchKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDMMapSearchKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		16BED3D10188E78FCAB02E69892921D6 /* Pods-SDMMapSearchKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDMMapSearchKit_Tests.modulemap"; sourceTree = "<group>"; };
+		17572E297CF8C8FBB33ADA575FB23F33 /* SDMRegisterSuccessViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMRegisterSuccessViewController.xib; sourceTree = "<group>"; };
+		192BB4F5194F860AD9ED2573E6956430 /* Pods-SDMMapSearchKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDMMapSearchKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		194C6CB3B412FEBD42B6DCFC78A02352 /* latest3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = latest3.png; sourceTree = "<group>"; };
+		1951FF935EDE603F46D669A76B73697E /* MyServiceVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyServiceVC.m; sourceTree = "<group>"; };
+		198245AF268A1A581EDCDEA1D1069F81 /* CallRSACell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CallRSACell.h; sourceTree = "<group>"; };
+		1B8ECDCBEA49DEE8270C8EB728B1E1AB /* ModelCar.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ModelCar.png; sourceTree = "<group>"; };
+		1DD36E4BB33A8989B8A7929C8FC9C2CE /* SDMForgotPasswordAuthorizationViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMForgotPasswordAuthorizationViewController.xib; sourceTree = "<group>"; };
+		1E41CDEC2CD6D29CDCF88F234FDE5AFC /* SDMVehicleViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMVehicleViewModel.swift; sourceTree = "<group>"; };
+		212E3A49BAF7260A5AE9860921E6A964 /* SDMMapMainController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMMapMainController.m; sourceTree = "<group>"; };
+		2177258140951B4B8B1C59682F18164D /* ToyotaType-Semibold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "ToyotaType-Semibold.ttf"; path = "SDMMapSearchKit/Classes/ToyotaType-Semibold.ttf"; sourceTree = "<group>"; };
+		21E203D574045B4B2BBB5536DFF7F489 /* Pods-SDMMapSearchKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDMMapSearchKit_Example-dummy.m"; sourceTree = "<group>"; };
+		230AD691F20DFD10F07ADD3329CB224B /* toyotatype_semibold.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = toyotatype_semibold.otf; path = SDMMapSearchKit/Classes/toyotatype_semibold.otf; sourceTree = "<group>"; };
+		24284E92B38D28863D90D00089116809 /* VehicleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VehicleViewController.swift; sourceTree = "<group>"; };
+		25A9174006FFF7CBC4992122B2A6CE12 /* SDMChooseKindView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMChooseKindView.xib; sourceTree = "<group>"; };
+		25C787817130B45311733F1562922F25 /* SDMAPIModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMAPIModel.swift; sourceTree = "<group>"; };
+		27BB89A9133644D295108F17C14E1E6F /* SDMMapSearchDetailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMMapSearchDetailViewController.m; sourceTree = "<group>"; };
+		2813F7C433AED73CA0B2ED49B251A056 /* RootTabbarVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RootTabbarVC.m; sourceTree = "<group>"; };
+		2C3FEC0B7BE8F244CEC3BE88042A425A /* AppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D80626BE820DB706AE27D933D25B5A3 /* HistoryModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HistoryModel.m; sourceTree = "<group>"; };
+		2EA11B6F4BA71C04DA43A8E9C63D9228 /* SDMBrunckPicksView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMBrunckPicksView.m; sourceTree = "<group>"; };
+		2F7D71570482087B355F86231A393213 /* CustomWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomWebView.h; sourceTree = "<group>"; };
+		31D1D83042865E76A5422750E8F1C489 /* SDMCKScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMCKScrollView.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33A54EBBB7DA3C59074C596843633427 /* SDMMapSearchKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDMMapSearchKit.framework; path = SDMMapSearchKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DE1713724D2435694256367F43BF4D /* Pods-SDMMapSearchKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDMMapSearchKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		345E19CCC83202810F94F013FF317A46 /* Rectangle6.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Rectangle6.png; sourceTree = "<group>"; };
+		346813A025D6C38AA7C4AD4BF5F15C67 /* SearchResultViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewModel.m; sourceTree = "<group>"; };
+		3624D1E9BF7A760A395C178F0171382B /* Rectangle1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Rectangle1.png; sourceTree = "<group>"; };
+		370546F2EF2A079F6CC847E2D4102C2C /* SDMSearchResultListVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMSearchResultListVC.xib; sourceTree = "<group>"; };
+		389B54D83E0CBF23DEBD3E4A1BDB5B1B /* RequestHeaderManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RequestHeaderManager.m; sourceTree = "<group>"; };
+		38C817C5EDF019D10C68AA24CF75B3D4 /* SDMMyCarLocationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMMyCarLocationView.m; sourceTree = "<group>"; };
+		38F86DF01D385B4336E5DB9879B5DBD2 /* toyotatype_bold.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = toyotatype_bold.otf; path = SDMMapSearchKit/Classes/toyotatype_bold.otf; sourceTree = "<group>"; };
+		392B11902557E33DB6A44A0CC731493A /* SDMMapSearchKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDMMapSearchKit-dummy.m"; sourceTree = "<group>"; };
+		39E2C3E41961E9AF3661B180775CA1EC /* LoginOutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LoginOutView.h; sourceTree = "<group>"; };
+		3C8748DCA81BF1DD9AC218D6FD0A8FA0 /* SDMMapSearchResultViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMMapSearchResultViewController.h; sourceTree = "<group>"; };
+		3CA6A29EECF866550676195D026435B3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = SDMMapSearchKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3DC5A4E7CB7FA18E5D4D0B4D535C7905 /* SDMHistoryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMHistoryViewController.m; sourceTree = "<group>"; };
+		3E186C2EEE3A8B453765175A4641EFD6 /* SDMDrivingRangeCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMDrivingRangeCell.m; sourceTree = "<group>"; };
+		3F3F79D838441053C10F3A3F121D4F3A /* CustomWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomWebView.m; sourceTree = "<group>"; };
+		46395549EA7C27FDEFC6E3384238243C /* MapHistoryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapHistoryView.h; sourceTree = "<group>"; };
+		467C291079AA2E5EE360088D3794BAE5 /* SearchTopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SearchTopView.h; sourceTree = "<group>"; };
+		482F016E7EAEEF8264CDBFB689DE4559 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		48709CCF8F0809645ECBB932D3189790 /* FavoritesView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FavoritesView.h; sourceTree = "<group>"; };
+		4896AF86632B1B5EE741E5410F55951E /* PhotosModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PhotosModel.h; sourceTree = "<group>"; };
+		4958CB0996A9808640F8CC0D1B5641F6 /* VehicleViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = VehicleViewController.xib; sourceTree = "<group>"; };
+		49FF5147B44974BBF3CCA6C9FE51A85D /* SDMLandingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMLandingView.m; sourceTree = "<group>"; };
+		4E6B3B86CB19F6E95770070489DF77A4 /* BaseViewModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		53D2331334A431C97BD0DC5B0DF76A03 /* SDMHistoryTopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMHistoryTopView.h; sourceTree = "<group>"; };
+		547AB5DF390AA3EAD7FDAB93C7145ABF /* SDMRegisterInputUserInfoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMRegisterInputUserInfoViewController.swift; sourceTree = "<group>"; };
+		54FFB935F603FE09D42558F1194EEBF8 /* latest1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = latest1.png; sourceTree = "<group>"; };
+		58228684C312606B6914185B2160B061 /* SearchResultCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SearchResultCell.m; sourceTree = "<group>"; };
+		5850E2436B40743731EBB840DB51E559 /* Pods-SDMMapSearchKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDMMapSearchKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		587A1B6C6058C1AB23E57E2C979CE648 /* MapHistoryView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MapHistoryView.m; sourceTree = "<group>"; };
+		5B36D6B963F9033E6FAFF0CC87E00F8A /* SDMDealerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMDealerViewController.m; sourceTree = "<group>"; };
+		5EB4D74F61EF28AC9B9AB0514F30571D /* SDMRegisterInputEmailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMRegisterInputEmailViewController.swift; sourceTree = "<group>"; };
+		5F177245B2E9B9316B02D52DE6F004BD /* SDMRequestStructureManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMRequestStructureManager.swift; sourceTree = "<group>"; };
+		649E11FC781D42E7CF679751697D1CEB /* SDMFavoriteViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMFavoriteViewController.xib; sourceTree = "<group>"; };
+		64C2F8E799FEC86EA14DBC3990C40312 /* BaseTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
+		6661BB6764275FB2B2180A164A6C72FF /* LoginOutView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LoginOutView.m; sourceTree = "<group>"; };
+		670608F06A4C0ADA873E84E4FDDC35BA /* Pods-SDMMapSearchKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SDMMapSearchKit_Example.modulemap"; sourceTree = "<group>"; };
+		68AF348AD441D12740D20894486856AB /* MapHistoryView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = MapHistoryView.xib; sourceTree = "<group>"; };
+		6916A8CAEDC001ABEA99B60FCF451186 /* Pods_SDMMapSearchKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SDMMapSearchKit_Example.framework; path = "Pods-SDMMapSearchKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69ECFD47CA79FFF40DD7751B2610AA9E /* SearchTopView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SearchTopView.xib; sourceTree = "<group>"; };
+		69FF94FF5F273A97B129E3C684308547 /* SDMCKScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMCKScrollView.m; sourceTree = "<group>"; };
+		6B1BF6D3DF815E1C1D7A0F481CB6C759 /* SDMBaseViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMBaseViewModel.swift; sourceTree = "<group>"; };
+		6C9E3FB64C67BC380226316021778E87 /* SDMServiceConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMServiceConfiguration.swift; sourceTree = "<group>"; };
+		6CB34C16D8FC129CC6948EA300F3B70E /* VoiceSpeechView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VoiceSpeechView.m; sourceTree = "<group>"; };
+		6E41010BC54C942D02106FEFC4F9BE8A /* SDMSwiftToOC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMSwiftToOC.swift; sourceTree = "<group>"; };
+		6F8D1CB6AB67510A76A7342734054E4E /* APIModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = APIModel.h; sourceTree = "<group>"; };
+		7034D3DA9F49409BC8C51974397F9DFB /* HttpRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		716819E58A78C0A2483504DB4B498641 /* JumpVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JumpVC.m; sourceTree = "<group>"; };
+		71991D769DEA681455225C94EF3CF194 /* BaseTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
+		74ED4AFB5C5087A9EACDAD2B5863916C /* MyServiceVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyServiceVC.h; sourceTree = "<group>"; };
+		763E04DDD04FD38EA7ADDAF6EC85AAE4 /* SDMLoginViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMLoginViewController.h; sourceTree = "<group>"; };
+		7680EBDCC8158D0674B28C4499AF6CAB /* Rectangle4.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Rectangle4.png; sourceTree = "<group>"; };
+		76E40DAF232809FCAE51A8CA0E4D766F /* Pods-SDMMapSearchKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDMMapSearchKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		775402F47FD1DA348BAE92ABF31A7722 /* SDMHistoryViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMHistoryViewController.xib; sourceTree = "<group>"; };
+		7835538299C8A657BFB2A9C2B313E522 /* SDMFavoriteTopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMFavoriteTopView.h; sourceTree = "<group>"; };
+		7B1CEDB418FAA180A57B067052A72B39 /* SDMMapMainController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMMapMainController.h; sourceTree = "<group>"; };
+		7B427F312EBE52B8B9524098C24AFD10 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		7B613F0ACAD62D2C1D27A5BBB9AE100D /* SDMMainKindView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMMainKindView.m; sourceTree = "<group>"; };
+		7E3508FCE1A28ACBFF1380C7D575F303 /* Pods-SDMMapSearchKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDMMapSearchKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7F0F4DDBB7026BE6DD3CF535B98604DE /* FavoriteListModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FavoriteListModel.h; sourceTree = "<group>"; };
+		8247E9712D5FF9069F19B5D014318B70 /* SDMMapSearchKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SDMMapSearchKit-Info.plist"; sourceTree = "<group>"; };
+		8330632572C05D6388394FB6ABA32528 /* SearchResultModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SearchResultModel.h; sourceTree = "<group>"; };
+		83EFFCDE13D417AF4A7CF778287A2F8B /* SDMBrunckPicksView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMBrunckPicksView.h; sourceTree = "<group>"; };
+		84BA6E235A0E2A923C3D8DFFD42931D0 /* SDMRegisterSuccessViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMRegisterSuccessViewController.swift; sourceTree = "<group>"; };
+		85AAC510A72E7F5D51F1315FAB2BE4B9 /* ChooseImgView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ChooseImgView.m; sourceTree = "<group>"; };
+		89E2E41F01EEF46A20309538080EC990 /* BrunckpickKindView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BrunckpickKindView.h; sourceTree = "<group>"; };
+		89F344C7928C0521C11161A466599480 /* SDMMainKindView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMMainKindView.h; sourceTree = "<group>"; };
+		8A1AE066ADAECB9E9E4CB1CA74E38A49 /* MapBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MapBaseViewController.h; sourceTree = "<group>"; };
+		8A2445B103BFB713FF2CB8016297D424 /* SearchView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SearchView.xib; sourceTree = "<group>"; };
+		8A506FD61112873AFD3DF7437F1A3E92 /* SDMMapSearchKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDMMapSearchKit.debug.xcconfig; sourceTree = "<group>"; };
+		8BE18AAFD8CA576AA51F67198E6B990D /* Pods-SDMMapSearchKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SDMMapSearchKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8C4204A38BCD326BC205214BA9117627 /* FavoriteListModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FavoriteListModel.m; sourceTree = "<group>"; };
+		8FC26C876F90EC588A6AD02F24E0B219 /* SDMVehicleLocationCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMVehicleLocationCell.h; sourceTree = "<group>"; };
+		8FFBA0B1B339567273F95036C8351754 /* SDMRequestStructureManager+Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "SDMRequestStructureManager+Map.swift"; sourceTree = "<group>"; };
+		913F8CAFD1CA5DF0A7DB8B0E93CDBEE5 /* Pods-SDMMapSearchKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDMMapSearchKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		91E935194EEA953BE47312E983176340 /* SDMMapSearchResultCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMMapSearchResultCell.xib; sourceTree = "<group>"; };
+		93A0EC1023358D6EE0FA39ADA702CD48 /* 2021_Prius_Prime_Red_005-600x352 1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "2021_Prius_Prime_Red_005-600x352 1.png"; sourceTree = "<group>"; };
+		93A4EF7DA3F14B24ABA10376422A5C9A /* SDMMapSearchKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDMMapSearchKit.release.xcconfig; sourceTree = "<group>"; };
+		94256F560114F0BE1BAA0B4548481088 /* FavoriteListCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = FavoriteListCell.xib; sourceTree = "<group>"; };
+		94A0DD9BEE744EC8E6F3AF7317B9716B /* SDMFaVoriteAndHistoryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMFaVoriteAndHistoryViewController.h; sourceTree = "<group>"; };
+		94B0585A437DB0ADF0B7B90827F74759 /* SDMForgotPasswordEnterNewPasswordViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMForgotPasswordEnterNewPasswordViewController.xib; sourceTree = "<group>"; };
+		953499A97AB130541D3260272A62C82B /* Pods-SDMMapSearchKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDMMapSearchKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9552BF60549A349A398FB51FAA86F9A4 /* TempOneView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TempOneView.m; sourceTree = "<group>"; };
+		95DC1FA3929AF9C7FDF98E57D728B126 /* SDMChooseKindView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMChooseKindView.m; sourceTree = "<group>"; };
+		97297EF8557D80849F72142378E55F98 /* CallRSACell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CallRSACell.xib; sourceTree = "<group>"; };
+		995D1AAF0F4916E014666489AA3B1451 /* SearchTopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SearchTopView.m; sourceTree = "<group>"; };
+		99753398CF95056AA1405DC2A25A3A2E /* SDMHistoryTopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMHistoryTopView.m; sourceTree = "<group>"; };
+		9AB7F0C7846439A7B32120ED8E7BFD36 /* SearchResultViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SearchResultViewModel.h; sourceTree = "<group>"; };
+		9B9FC6652A744A696716A728D46DD53D /* ChooseImgView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ChooseImgView.h; sourceTree = "<group>"; };
+		9C39B0FA6907D7BE461F9D5993E9AF65 /* SDMCheckVersionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMCheckVersionModel.swift; sourceTree = "<group>"; };
+		9C983A10981E1217A9F20E29E86D9938 /* SDMMapSearchResultCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMMapSearchResultCell.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F900B2275D051B629F1075CBC5C77EB /* ToyotaType-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "ToyotaType-Bold.ttf"; path = "SDMMapSearchKit/Classes/ToyotaType-Bold.ttf"; sourceTree = "<group>"; };
+		A231BBB31189DC8AB6957D2A1BACC204 /* APIModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = APIModel.m; sourceTree = "<group>"; };
+		A2338DCE090EB2AD8116CEECF5E6F367 /* SDMBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMBaseViewController.swift; sourceTree = "<group>"; };
+		A2F37C0F5180E29221B5195A0747514C /* AppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3C307DABE6DE912399582187DA2A70C /* SDMLandingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMLandingView.xib; sourceTree = "<group>"; };
+		A57C0F30A597FCA88AA7A8D8C857D7F7 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		A5A291122406E60F41A309972565598F /* SDMBaseModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMBaseModel.swift; sourceTree = "<group>"; };
+		A604E39999C1FF4ACB1816261124580A /* SDMVehicleStatusModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMVehicleStatusModel.swift; sourceTree = "<group>"; };
+		A63A5B278B50405545FCD94E45B14EB6 /* SDMIDMLoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMIDMLoginViewController.swift; sourceTree = "<group>"; };
+		A86DB8CFE23C17CABD0A45855E43CBD5 /* SDMVehicleLocationCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMVehicleLocationCell.xib; sourceTree = "<group>"; };
+		A8944AB5FB39EA125A9F175084B2BC77 /* VoiceSpeechView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VoiceSpeechView.h; sourceTree = "<group>"; };
+		ABD5262D5C26F040FE041B0CB4DE76E8 /* SDMMapSearchKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDMMapSearchKit-umbrella.h"; sourceTree = "<group>"; };
+		AFC4391707CA167E0F420D9CAAFFD3A2 /* SearchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SearchView.m; sourceTree = "<group>"; };
+		B0CE6692D5E62FBF28E834F192FA04C4 /* SDMLoginViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMLoginViewController.m; sourceTree = "<group>"; };
+		B196BF099D6F3369A450C8FC7F3450F5 /* SearchResultVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SearchResultVC.h; sourceTree = "<group>"; };
+		B441118F16A77E1F709D7CD16D5DBE6C /* HomePageVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HomePageVC.h; sourceTree = "<group>"; };
+		B5110ABC57F7443D40D0ACE334F6FE2E /* SDMForgotPasswordEnterNewPasswordViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMForgotPasswordEnterNewPasswordViewController.swift; sourceTree = "<group>"; };
+		B55000E4103A59CACF3AC978D56C92B0 /* Rectangle2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Rectangle2.png; sourceTree = "<group>"; };
+		B6671B846E356AF8E9576EA06706E541 /* SDMSearchResultListVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMSearchResultListVC.m; sourceTree = "<group>"; };
+		B66B89BA7E1E7E78B0149F46854E2A41 /* SDMMyCarLocationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMMyCarLocationView.h; sourceTree = "<group>"; };
+		B830EAAA298E2342CAB6B58E39E98543 /* ToyotaSearch-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ToyotaSearch-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB5BCC0865323C33DF375486F5372C41 /* ToyotaType-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "ToyotaType-Regular.ttf"; path = "SDMMapSearchKit/Classes/ToyotaType-Regular.ttf"; sourceTree = "<group>"; };
+		BD136F0FB2559AF2630752647D86FB3B /* SDMMapSearchResultViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMMapSearchResultViewController.m; sourceTree = "<group>"; };
+		BD95EB61897CBF525D5654D366034BAD /* SDMLoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMLoginViewController.xib; sourceTree = "<group>"; };
+		BD9890BB4025E9A21548857895EA7893 /* latest2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = latest2.png; sourceTree = "<group>"; };
+		BF90C3DC08F5B00BA9281AFFB7A39617 /* toyotatype_regular.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = toyotatype_regular.otf; path = SDMMapSearchKit/Classes/toyotatype_regular.otf; sourceTree = "<group>"; };
+		C1675472935CCF274848DB798909A264 /* Pods-SDMMapSearchKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDMMapSearchKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3A83713214F3AC6DFD8CFD03BAB9407 /* SDMDealerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMDealerViewController.h; sourceTree = "<group>"; };
+		C70992393A460FFC83E285AD183B1C6B /* TempOneView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TempOneView.h; sourceTree = "<group>"; };
+		C731888A41BAE79222BAAD625FC53890 /* SDMMapSearchKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDMMapSearchKit-prefix.pch"; sourceTree = "<group>"; };
+		C78EF2114EB938D7C3F2F4B5D3684F4E /* SDMHistoryTopView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMHistoryTopView.xib; sourceTree = "<group>"; };
+		CA7CE46DC61F1F97BBC4DE7928D98F57 /* SDMRegisterInputUserInfoViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMRegisterInputUserInfoViewController.xib; sourceTree = "<group>"; };
+		CB7B4C43E5F862D3F50CBFC1FD581AA7 /* SearchResultCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
+		CC4623747EB47A758EDCE594C070C1CE /* SDMSearchResultListVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMSearchResultListVC.h; sourceTree = "<group>"; };
+		CCEFA1EB2DCD47AE97CE66B43267F744 /* HistoryModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HistoryModel.h; sourceTree = "<group>"; };
+		CDA6F24370CD493648929B865D6C74DF /* FavoriteListCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FavoriteListCell.m; sourceTree = "<group>"; };
+		CE07885746AE3F855615C73E0E073737 /* SDMVehicleLocationCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMVehicleLocationCell.m; sourceTree = "<group>"; };
+		D043FB346A544BC412CAE0DA29F9AAE6 /* Rectangle5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = Rectangle5.png; sourceTree = "<group>"; };
+		D18E1E02F9B3196BA3F1F887B9CCD469 /* SDMMapHistoryViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMMapHistoryViewController.h; sourceTree = "<group>"; };
+		D1FA5CC7AA2BDD69D81D576248FBD869 /* SDMLocalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMLocalizable.swift; sourceTree = "<group>"; };
+		D31923FF5D883164B07EC554DAB0C4A7 /* SDMMapHistoryViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMMapHistoryViewController.m; sourceTree = "<group>"; };
+		D34CF8B53242463EC82E7BA3757185D2 /* FavoritesView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FavoritesView.m; sourceTree = "<group>"; };
+		D4BE6BC7A1534B2EA2FF50889665462E /* JumpVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JumpVC.h; sourceTree = "<group>"; };
+		D4E003EE8736E94DAF2A75704B38BF51 /* SDMLandingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMLandingView.h; sourceTree = "<group>"; };
+		D5BF1F3D6F0D874969CD568440899A24 /* SDMUserDataManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMUserDataManager.swift; sourceTree = "<group>"; };
+		D788287879F724D33A7126430C86B307 /* SDMForgotPasswordEnterEmailViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMForgotPasswordEnterEmailViewController.xib; sourceTree = "<group>"; };
+		DA4BA9A15C872360C429D7DA416AFD31 /* RootTabbarVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RootTabbarVC.h; sourceTree = "<group>"; };
+		DB8D9851D74FDF08267B9493F9783B1B /* TempOneView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = TempOneView.xib; sourceTree = "<group>"; };
+		DC67FBB1741AAF2C1ADBFC50D3B1E31F /* SearchResultModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SearchResultModel.m; sourceTree = "<group>"; };
+		DE9BF3F3B65AEF28C3CC6CED1E257C29 /* SDMFavoriteTopView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMFavoriteTopView.xib; sourceTree = "<group>"; };
+		DF7D23D3B069275F3697C179766A7678 /* SDMDrivingRangeCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMDrivingRangeCell.xib; sourceTree = "<group>"; };
+		E21EE71A497474E637A7CCCEBA4D0ECB /* SDMFindMyCar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMFindMyCar.m; sourceTree = "<group>"; };
+		E4D4A9B763BD414BB16E565446159BC4 /* Pods-SDMMapSearchKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SDMMapSearchKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		E739A9FB3CF8A14C0D0EA2368B13BC05 /* SDMIDMLoginViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMIDMLoginViewController.xib; sourceTree = "<group>"; };
+		E8C93DFFD859841F4BD1E82ADDD85325 /* SDMDrivingRangeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMDrivingRangeCell.h; sourceTree = "<group>"; };
+		E953BB5544352A074835419CC9665E74 /* SDMForgotPasswordEnterEmailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMForgotPasswordEnterEmailViewController.swift; sourceTree = "<group>"; };
+		E9DA4130AE3B9332086180FC065921D8 /* SDMMenuViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMMenuViewController.h; sourceTree = "<group>"; };
+		ED77D1BDCA0F880A390F471A338CAE70 /* BaseViewModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		EE5DACB8F6DFDAE44A401206EB90F93E /* BaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		EEE1016012A41D21272A1214B3C591B2 /* SDMSessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMSessionManager.swift; sourceTree = "<group>"; };
+		EF55ED256BB93935D7A10168475C39D5 /* Pods-SDMMapSearchKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDMMapSearchKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EFC84108F7E625BFE2581A5D1100A7DE /* MapBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MapBaseViewController.m; sourceTree = "<group>"; };
+		F1E1F50DC92AC3B19F7CB1340635F25C /* BrunckpickKindView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BrunckpickKindView.m; sourceTree = "<group>"; };
+		F3AC471B340CBB923E15B194B04E855C /* SDMUserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SDMUserDefaults.swift; sourceTree = "<group>"; };
+		F417969B4D0F7A0EE347289A796DDD87 /* SDMMapSearchDetailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMMapSearchDetailViewController.h; sourceTree = "<group>"; };
+		F478FB9B629CAB9716DBD3CFD5987CB8 /* SDMFindMyCar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMFindMyCar.h; sourceTree = "<group>"; };
+		F6212A642C51DFF955D6C792B01A2270 /* SDMMyCarLocationView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SDMMyCarLocationView.xib; sourceTree = "<group>"; };
+		F784AB3F95788D9E420FD6652334067D /* CallRSACell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CallRSACell.m; sourceTree = "<group>"; };
+		F7D82EBD36C276A1B91BD2E7D66F40A6 /* BrunckpickKindView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = BrunckpickKindView.xib; sourceTree = "<group>"; };
+		F8005840CF18F5CFB8545907353B552E /* SDMFavoriteTopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMFavoriteTopView.m; sourceTree = "<group>"; };
+		F8A2A37D9AC88A387B280A243267BD4B /* BaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F98751C1B7ABCA21E6C68DAA6011A76A /* SDMMapSearchResultCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SDMMapSearchResultCell.m; sourceTree = "<group>"; };
+		F9CD8E039C709BEFF70AE8517EEA0FEC /* SDMFavoriteViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMFavoriteViewController.h; sourceTree = "<group>"; };
+		FB2502EBD5373DADBC0FF2395FBE7F3F /* SearchResultCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SearchResultCell.h; sourceTree = "<group>"; };
+		FB3AD4B192F8EB0BB3DD4D8988A61FF7 /* latest5.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = latest5.png; sourceTree = "<group>"; };
+		FC20173089DA8A99C4F933AC75F99310 /* FavoriteListCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FavoriteListCell.h; sourceTree = "<group>"; };
+		FC3ABFF59F3F00353D1F447F05339E4A /* PhotosModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PhotosModel.m; sourceTree = "<group>"; };
+		FD0A62E50051B92999559A47A4909EE4 /* SDMChooseKindView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDMChooseKindView.h; sourceTree = "<group>"; };
+		FF2778AE6F7DA3A0257906D630B8AF53 /* RequestHeaderManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RequestHeaderManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50C1006D968E18587D09B17884C4133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A757E0E38103B75856E6BBD034CFAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A886635D7A4CA3B342CB3B8910A75D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F861AF9DB686548DBD2360B04F24BC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB796B97A4E29404DE5590EE3DDDEDE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22806B2968796B3E59FD9D84C43CD47C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A31FE5F133C9197EC9C0F9E5BE89CC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07D2F39A487FC2E086B475FED504F209 /* SDMMapSearchKit.modulemap */,
+				392B11902557E33DB6A44A0CC731493A /* SDMMapSearchKit-dummy.m */,
+				8247E9712D5FF9069F19B5D014318B70 /* SDMMapSearchKit-Info.plist */,
+				C731888A41BAE79222BAAD625FC53890 /* SDMMapSearchKit-prefix.pch */,
+				ABD5262D5C26F040FE041B0CB4DE76E8 /* SDMMapSearchKit-umbrella.h */,
+				8A506FD61112873AFD3DF7437F1A3E92 /* SDMMapSearchKit.debug.xcconfig */,
+				93A4EF7DA3F14B24ABA10376422A5C9A /* SDMMapSearchKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SDMMapSearchKit";
+			sourceTree = "<group>";
+		};
+		0A853AE997C17227496186AFB02D67CD /* Thirty */ = {
+			isa = PBXGroup;
+			children = (
+				D1FA5CC7AA2BDD69D81D576248FBD869 /* SDMLocalizable.swift */,
+				6C9E3FB64C67BC380226316021778E87 /* SDMServiceConfiguration.swift */,
+				F3AC471B340CBB923E15B194B04E855C /* SDMUserDefaults.swift */,
+			);
+			name = Thirty;
+			path = Thirty;
+			sourceTree = "<group>";
+		};
+		0FD25E0998ED2B437BD446E3E07628E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F0F4DDBB7026BE6DD3CF535B98604DE /* FavoriteListModel.h */,
+				8C4204A38BCD326BC205214BA9117627 /* FavoriteListModel.m */,
+				CCEFA1EB2DCD47AE97CE66B43267F744 /* HistoryModel.h */,
+				2D80626BE820DB706AE27D933D25B5A3 /* HistoryModel.m */,
+				4896AF86632B1B5EE741E5410F55951E /* PhotosModel.h */,
+				FC3ABFF59F3F00353D1F447F05339E4A /* PhotosModel.m */,
+				8330632572C05D6388394FB6ABA32528 /* SearchResultModel.h */,
+				DC67FBB1741AAF2C1ADBFC50D3B1E31F /* SearchResultModel.m */,
+				52E7F62848269C39C19CEE6341446A7A /* ViewModel */,
+			);
+			name = Model;
+			path = SDMMapSearchKit/Classes/Model;
+			sourceTree = "<group>";
+		};
+		1069BA841A600907D46795B75E621855 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDF0B1447D6AF4B6CC688904B134F4C0 /* SDMMapSearchKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		12A443CACF648282A10DA438FEA4E77C /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				74ED4AFB5C5087A9EACDAD2B5863916C /* MyServiceVC.h */,
+				1951FF935EDE603F46D669A76B73697E /* MyServiceVC.m */,
+				F478FB9B629CAB9716DBD3CFD5987CB8 /* SDMFindMyCar.h */,
+				E21EE71A497474E637A7CCCEBA4D0ECB /* SDMFindMyCar.m */,
+			);
+			name = Vehicle;
+			path = Vehicle;
+			sourceTree = "<group>";
+		};
+		1555D8AE8E341DF1466BA0AF28901AF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89E2E41F01EEF46A20309538080EC990 /* BrunckpickKindView.h */,
+				F1E1F50DC92AC3B19F7CB1340635F25C /* BrunckpickKindView.m */,
+				F7D82EBD36C276A1B91BD2E7D66F40A6 /* BrunckpickKindView.xib */,
+				198245AF268A1A581EDCDEA1D1069F81 /* CallRSACell.h */,
+				F784AB3F95788D9E420FD6652334067D /* CallRSACell.m */,
+				97297EF8557D80849F72142378E55F98 /* CallRSACell.xib */,
+				9B9FC6652A744A696716A728D46DD53D /* ChooseImgView.h */,
+				85AAC510A72E7F5D51F1315FAB2BE4B9 /* ChooseImgView.m */,
+				FC20173089DA8A99C4F933AC75F99310 /* FavoriteListCell.h */,
+				CDA6F24370CD493648929B865D6C74DF /* FavoriteListCell.m */,
+				94256F560114F0BE1BAA0B4548481088 /* FavoriteListCell.xib */,
+				48709CCF8F0809645ECBB932D3189790 /* FavoritesView.h */,
+				D34CF8B53242463EC82E7BA3757185D2 /* FavoritesView.m */,
+				39E2C3E41961E9AF3661B180775CA1EC /* LoginOutView.h */,
+				6661BB6764275FB2B2180A164A6C72FF /* LoginOutView.m */,
+				1089C8558B5226A19B44EF1C187B1C4C /* LoginOutView.xib */,
+				46395549EA7C27FDEFC6E3384238243C /* MapHistoryView.h */,
+				587A1B6C6058C1AB23E57E2C979CE648 /* MapHistoryView.m */,
+				68AF348AD441D12740D20894486856AB /* MapHistoryView.xib */,
+				14DECFDECAC69CD93745679451BFC7AA /* PhotoCollectionViewCell.h */,
+				A57C0F30A597FCA88AA7A8D8C857D7F7 /* PhotoCollectionViewCell.m */,
+				7B427F312EBE52B8B9524098C24AFD10 /* PhotoCollectionViewCell.xib */,
+				83EFFCDE13D417AF4A7CF778287A2F8B /* SDMBrunckPicksView.h */,
+				2EA11B6F4BA71C04DA43A8E9C63D9228 /* SDMBrunckPicksView.m */,
+				FD0A62E50051B92999559A47A4909EE4 /* SDMChooseKindView.h */,
+				95DC1FA3929AF9C7FDF98E57D728B126 /* SDMChooseKindView.m */,
+				25A9174006FFF7CBC4992122B2A6CE12 /* SDMChooseKindView.xib */,
+				31D1D83042865E76A5422750E8F1C489 /* SDMCKScrollView.h */,
+				69FF94FF5F273A97B129E3C684308547 /* SDMCKScrollView.m */,
+				E8C93DFFD859841F4BD1E82ADDD85325 /* SDMDrivingRangeCell.h */,
+				3E186C2EEE3A8B453765175A4641EFD6 /* SDMDrivingRangeCell.m */,
+				DF7D23D3B069275F3697C179766A7678 /* SDMDrivingRangeCell.xib */,
+				7835538299C8A657BFB2A9C2B313E522 /* SDMFavoriteTopView.h */,
+				F8005840CF18F5CFB8545907353B552E /* SDMFavoriteTopView.m */,
+				DE9BF3F3B65AEF28C3CC6CED1E257C29 /* SDMFavoriteTopView.xib */,
+				53D2331334A431C97BD0DC5B0DF76A03 /* SDMHistoryTopView.h */,
+				99753398CF95056AA1405DC2A25A3A2E /* SDMHistoryTopView.m */,
+				C78EF2114EB938D7C3F2F4B5D3684F4E /* SDMHistoryTopView.xib */,
+				D4E003EE8736E94DAF2A75704B38BF51 /* SDMLandingView.h */,
+				49FF5147B44974BBF3CCA6C9FE51A85D /* SDMLandingView.m */,
+				A3C307DABE6DE912399582187DA2A70C /* SDMLandingView.xib */,
+				89F344C7928C0521C11161A466599480 /* SDMMainKindView.h */,
+				7B613F0ACAD62D2C1D27A5BBB9AE100D /* SDMMainKindView.m */,
+				9C983A10981E1217A9F20E29E86D9938 /* SDMMapSearchResultCell.h */,
+				F98751C1B7ABCA21E6C68DAA6011A76A /* SDMMapSearchResultCell.m */,
+				91E935194EEA953BE47312E983176340 /* SDMMapSearchResultCell.xib */,
+				B66B89BA7E1E7E78B0149F46854E2A41 /* SDMMyCarLocationView.h */,
+				38C817C5EDF019D10C68AA24CF75B3D4 /* SDMMyCarLocationView.m */,
+				F6212A642C51DFF955D6C792B01A2270 /* SDMMyCarLocationView.xib */,
+				8FC26C876F90EC588A6AD02F24E0B219 /* SDMVehicleLocationCell.h */,
+				CE07885746AE3F855615C73E0E073737 /* SDMVehicleLocationCell.m */,
+				A86DB8CFE23C17CABD0A45855E43CBD5 /* SDMVehicleLocationCell.xib */,
+				FB2502EBD5373DADBC0FF2395FBE7F3F /* SearchResultCell.h */,
+				58228684C312606B6914185B2160B061 /* SearchResultCell.m */,
+				CB7B4C43E5F862D3F50CBFC1FD581AA7 /* SearchResultCell.xib */,
+				467C291079AA2E5EE360088D3794BAE5 /* SearchTopView.h */,
+				995D1AAF0F4916E014666489AA3B1451 /* SearchTopView.m */,
+				69ECFD47CA79FFF40DD7751B2610AA9E /* SearchTopView.xib */,
+				0DA6A0FEAEB45511A665AC4B1E678476 /* SearchView.h */,
+				AFC4391707CA167E0F420D9CAAFFD3A2 /* SearchView.m */,
+				8A2445B103BFB713FF2CB8016297D424 /* SearchView.xib */,
+				C70992393A460FFC83E285AD183B1C6B /* TempOneView.h */,
+				9552BF60549A349A398FB51FAA86F9A4 /* TempOneView.m */,
+				DB8D9851D74FDF08267B9493F9783B1B /* TempOneView.xib */,
+				A8944AB5FB39EA125A9F175084B2BC77 /* VoiceSpeechView.h */,
+				6CB34C16D8FC129CC6948EA300F3B70E /* VoiceSpeechView.m */,
+				0D339455BC55CAF560D67627D8B3EE83 /* VoiceSpeechView.xib */,
+			);
+			name = View;
+			path = SDMMapSearchKit/Classes/View;
+			sourceTree = "<group>";
+		};
+		18C8264F383BF9BE27677DB65B449820 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E9DA4130AE3B9332086180FC065921D8 /* SDMMenuViewController.h */,
+				0D3CD3E7244AD3733A9F8195E301BC20 /* SDMMenuViewController.m */,
+			);
+			name = Menu;
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		19813128E4D33365A088B62549DC4902 /* Pods-SDMMapSearchKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16BED3D10188E78FCAB02E69892921D6 /* Pods-SDMMapSearchKit_Tests.modulemap */,
+				953499A97AB130541D3260272A62C82B /* Pods-SDMMapSearchKit_Tests-acknowledgements.markdown */,
+				C1675472935CCF274848DB798909A264 /* Pods-SDMMapSearchKit_Tests-acknowledgements.plist */,
+				76E40DAF232809FCAE51A8CA0E4D766F /* Pods-SDMMapSearchKit_Tests-dummy.m */,
+				15C9981FED1030CD198B1CD2ABE191CF /* Pods-SDMMapSearchKit_Tests-Info.plist */,
+				0595070DA3723A55922782D48861D250 /* Pods-SDMMapSearchKit_Tests-umbrella.h */,
+				5850E2436B40743731EBB840DB51E559 /* Pods-SDMMapSearchKit_Tests.debug.xcconfig */,
+				EF55ED256BB93935D7A10168475C39D5 /* Pods-SDMMapSearchKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-SDMMapSearchKit_Tests";
+			path = "Target Support Files/Pods-SDMMapSearchKit_Tests";
+			sourceTree = "<group>";
+		};
+		224C3BBA04A06127856EE136BC4929D7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				763E04DDD04FD38EA7ADDAF6EC85AAE4 /* SDMLoginViewController.h */,
+				B0CE6692D5E62FBF28E834F192FA04C4 /* SDMLoginViewController.m */,
+				BD95EB61897CBF525D5654D366034BAD /* SDMLoginViewController.xib */,
+			);
+			name = Login;
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4B15714D8ABAF9475215B537755DD96D /* IDM */ = {
+			isa = PBXGroup;
+			children = (
+				7034D3DA9F49409BC8C51974397F9DFB /* HttpRequest.swift */,
+				A2338DCE090EB2AD8116CEECF5E6F367 /* SDMBaseViewController.swift */,
+				12C407B8AD8C985B598E62353204A5EE /* SDMForgotPasswordAuthorizationViewController.swift */,
+				1DD36E4BB33A8989B8A7929C8FC9C2CE /* SDMForgotPasswordAuthorizationViewController.xib */,
+				E953BB5544352A074835419CC9665E74 /* SDMForgotPasswordEnterEmailViewController.swift */,
+				D788287879F724D33A7126430C86B307 /* SDMForgotPasswordEnterEmailViewController.xib */,
+				B5110ABC57F7443D40D0ACE334F6FE2E /* SDMForgotPasswordEnterNewPasswordViewController.swift */,
+				94B0585A437DB0ADF0B7B90827F74759 /* SDMForgotPasswordEnterNewPasswordViewController.xib */,
+				A63A5B278B50405545FCD94E45B14EB6 /* SDMIDMLoginViewController.swift */,
+				E739A9FB3CF8A14C0D0EA2368B13BC05 /* SDMIDMLoginViewController.xib */,
+				5EB4D74F61EF28AC9B9AB0514F30571D /* SDMRegisterInputEmailViewController.swift */,
+				118395208025E153C6CBB1718E5226EE /* SDMRegisterInputEmailViewController.xib */,
+				547AB5DF390AA3EAD7FDAB93C7145ABF /* SDMRegisterInputUserInfoViewController.swift */,
+				CA7CE46DC61F1F97BBC4DE7928D98F57 /* SDMRegisterInputUserInfoViewController.xib */,
+				84BA6E235A0E2A923C3D8DFFD42931D0 /* SDMRegisterSuccessViewController.swift */,
+				17572E297CF8C8FBB33ADA575FB23F33 /* SDMRegisterSuccessViewController.xib */,
+				A2A793A3D5DC9C986C261AFBF685DBCB /* Kintaro */,
+			);
+			name = IDM;
+			path = IDM;
+			sourceTree = "<group>";
+		};
+		4C8CF4774AFF7FB3BAC4A1BF72A5A7E5 /* Pods-SDMMapSearchKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				670608F06A4C0ADA873E84E4FDDC35BA /* Pods-SDMMapSearchKit_Example.modulemap */,
+				192BB4F5194F860AD9ED2573E6956430 /* Pods-SDMMapSearchKit_Example-acknowledgements.markdown */,
+				33DE1713724D2435694256367F43BF4D /* Pods-SDMMapSearchKit_Example-acknowledgements.plist */,
+				21E203D574045B4B2BBB5536DFF7F489 /* Pods-SDMMapSearchKit_Example-dummy.m */,
+				8BE18AAFD8CA576AA51F67198E6B990D /* Pods-SDMMapSearchKit_Example-frameworks.sh */,
+				0917756474CE6D0B3FCD115F801848B2 /* Pods-SDMMapSearchKit_Example-Info.plist */,
+				E4D4A9B763BD414BB16E565446159BC4 /* Pods-SDMMapSearchKit_Example-umbrella.h */,
+				913F8CAFD1CA5DF0A7DB8B0E93CDBEE5 /* Pods-SDMMapSearchKit_Example.debug.xcconfig */,
+				7E3508FCE1A28ACBFF1380C7D575F303 /* Pods-SDMMapSearchKit_Example.release.xcconfig */,
+			);
+			name = "Pods-SDMMapSearchKit_Example";
+			path = "Target Support Files/Pods-SDMMapSearchKit_Example";
+			sourceTree = "<group>";
+		};
+		52E7F62848269C39C19CEE6341446A7A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6F8D1CB6AB67510A76A7342734054E4E /* APIModel.h */,
+				A231BBB31189DC8AB6957D2A1BACC204 /* APIModel.m */,
+				ED77D1BDCA0F880A390F471A338CAE70 /* BaseViewModel.h */,
+				4E6B3B86CB19F6E95770070489DF77A4 /* BaseViewModel.m */,
+				FF2778AE6F7DA3A0257906D630B8AF53 /* RequestHeaderManager.h */,
+				389B54D83E0CBF23DEBD3E4A1BDB5B1B /* RequestHeaderManager.m */,
+				9AB7F0C7846439A7B32120ED8E7BFD36 /* SearchResultViewModel.h */,
+				346813A025D6C38AA7C4AD4BF5F15C67 /* SearchResultViewModel.m */,
+			);
+			name = ViewModel;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		621ECE594CDA945203A1CE2DB75A0575 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B441118F16A77E1F709D7CD16D5DBE6C /* HomePageVC.h */,
+				085B73BCF0966B1982EEE2F27C3CDC24 /* HomePageVC.m */,
+			);
+			name = Home;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7867EFFB2623B5F263CE4FFAB0373AC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				25C787817130B45311733F1562922F25 /* SDMAPIModel.swift */,
+				A5A291122406E60F41A309972565598F /* SDMBaseModel.swift */,
+				9C39B0FA6907D7BE461F9D5993E9AF65 /* SDMCheckVersionModel.swift */,
+				A604E39999C1FF4ACB1816261124580A /* SDMVehicleStatusModel.swift */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		918AAA1C30E92B24B1765709746E6910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6916A8CAEDC001ABEA99B60FCF451186 /* Pods_SDMMapSearchKit_Example.framework */,
+				0464D7FD17708BA1E80169A410894A9B /* Pods_SDMMapSearchKit_Tests.framework */,
+				33A54EBBB7DA3C59074C596843633427 /* SDMMapSearchKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A50A453E4B46DA01A5A5D421FC289D2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0A71C826CC10598BCE7FE484963CB26A /* LICENSE */,
+				482F016E7EAEEF8264CDBFB689DE4559 /* README.md */,
+				13AC0F7DA4EC265CA3209990D11CB914 /* SDMMapSearchKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9B370C37E648F4C27FCBBF8B1CE94A07 /* ModelImg */ = {
+			isa = PBXGroup;
+			children = (
+				93A0EC1023358D6EE0FA39ADA702CD48 /* 2021_Prius_Prime_Red_005-600x352 1.png */,
+				54FFB935F603FE09D42558F1194EEBF8 /* latest1.png */,
+				BD9890BB4025E9A21548857895EA7893 /* latest2.png */,
+				194C6CB3B412FEBD42B6DCFC78A02352 /* latest3.png */,
+				0C153619964BE7C335AD7B0AE1BDABF6 /* latest4.png */,
+				FB3AD4B192F8EB0BB3DD4D8988A61FF7 /* latest5.png */,
+				1B8ECDCBEA49DEE8270C8EB728B1E1AB /* ModelCar.png */,
+				3624D1E9BF7A760A395C178F0171382B /* Rectangle1.png */,
+				B55000E4103A59CACF3AC978D56C92B0 /* Rectangle2.png */,
+				0E5A3B38421E3BF3CB0E13E8E9E68F0A /* Rectangle3.png */,
+				7680EBDCC8158D0674B28C4499AF6CAB /* Rectangle4.png */,
+				D043FB346A544BC412CAE0DA29F9AAE6 /* Rectangle5.png */,
+				345E19CCC83202810F94F013FF317A46 /* Rectangle6.png */,
+			);
+			name = ModelImg;
+			path = ModelImg;
+			sourceTree = "<group>";
+		};
+		A2A793A3D5DC9C986C261AFBF685DBCB /* Kintaro */ = {
+			isa = PBXGroup;
+			children = (
+				5F177245B2E9B9316B02D52DE6F004BD /* SDMRequestStructureManager.swift */,
+				8FFBA0B1B339567273F95036C8351754 /* SDMRequestStructureManager+Map.swift */,
+				EEE1016012A41D21272A1214B3C591B2 /* SDMSessionManager.swift */,
+				6E41010BC54C942D02106FEFC4F9BE8A /* SDMSwiftToOC.swift */,
+				0D69D7CD4F8EC14AAAF784D155A7496B /* SDMToyotaRequestInterceptor.swift */,
+				D5BF1F3D6F0D874969CD568440899A24 /* SDMUserDataManager.swift */,
+				FF6767260A66A46C1E6609A46086F2CC /* Controller */,
+				7867EFFB2623B5F263CE4FFAB0373AC3 /* Model */,
+				0A853AE997C17227496186AFB02D67CD /* Thirty */,
+				C4B9AEB6847831BE189A91E189D493CF /* ViewModel */,
+			);
+			name = Kintaro;
+			path = Kintaro;
+			sourceTree = "<group>";
+		};
+		ABE0F1FDCB1928ECC8D9E62E722DB45F /* Favorite&History */ = {
+			isa = PBXGroup;
+			children = (
+				94A0DD9BEE744EC8E6F3AF7317B9716B /* SDMFaVoriteAndHistoryViewController.h */,
+				03BF0C741402E4BA2344BF32FE0F8E2A /* SDMFaVoriteAndHistoryViewController.m */,
+				F9CD8E039C709BEFF70AE8517EEA0FEC /* SDMFavoriteViewController.h */,
+				0F3BA2114542FD2F8232274A314C59E7 /* SDMFavoriteViewController.m */,
+				649E11FC781D42E7CF679751697D1CEB /* SDMFavoriteViewController.xib */,
+				0CF90A7CD596AE202C027C34D132006D /* SDMHistoryViewController.h */,
+				3DC5A4E7CB7FA18E5D4D0B4D535C7905 /* SDMHistoryViewController.m */,
+				775402F47FD1DA348BAE92ABF31A7722 /* SDMHistoryViewController.xib */,
+			);
+			name = "Favorite&History";
+			path = "Favorite&History";
+			sourceTree = "<group>";
+		};
+		B9B995775CB79D93AFBB3DB3249C54A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4405BB996A2DF60B884668AB006379A /* Common */,
+				D86E9E04F7C0B349C306C971DB685D46 /* Dealer */,
+				ABE0F1FDCB1928ECC8D9E62E722DB45F /* Favorite&History */,
+				621ECE594CDA945203A1CE2DB75A0575 /* Home */,
+				4B15714D8ABAF9475215B537755DD96D /* IDM */,
+				224C3BBA04A06127856EE136BC4929D7 /* Login */,
+				C948387547711812CA2A9ECFAB10E78A /* Map */,
+				18C8264F383BF9BE27677DB65B449820 /* Menu */,
+				12A443CACF648282A10DA438FEA4E77C /* Vehicle */,
+			);
+			name = Controller;
+			path = SDMMapSearchKit/Classes/Controller;
+			sourceTree = "<group>";
+		};
+		BC84D9CEBB6468E454C1944F97B2202A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				64C2F8E799FEC86EA14DBC3990C40312 /* BaseTableView.h */,
+				71991D769DEA681455225C94EF3CF194 /* BaseTableView.m */,
+				EE5DACB8F6DFDAE44A401206EB90F93E /* BaseViewController.h */,
+				F8A2A37D9AC88A387B280A243267BD4B /* BaseViewController.m */,
+				D4BE6BC7A1534B2EA2FF50889665462E /* JumpVC.h */,
+				716819E58A78C0A2483504DB4B498641 /* JumpVC.m */,
+				9B370C37E648F4C27FCBBF8B1CE94A07 /* ModelImg */,
+			);
+			name = Base;
+			path = SDMMapSearchKit/Classes/Base;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4B9AEB6847831BE189A91E189D493CF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B1BF6D3DF815E1C1D7A0F481CB6C759 /* SDMBaseViewModel.swift */,
+				1E41CDEC2CD6D29CDCF88F234FDE5AFC /* SDMVehicleViewModel.swift */,
+			);
+			name = ViewModel;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C948387547711812CA2A9ECFAB10E78A /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8A1AE066ADAECB9E9E4CB1CA74E38A49 /* MapBaseViewController.h */,
+				EFC84108F7E625BFE2581A5D1100A7DE /* MapBaseViewController.m */,
+				D18E1E02F9B3196BA3F1F887B9CCD469 /* SDMMapHistoryViewController.h */,
+				D31923FF5D883164B07EC554DAB0C4A7 /* SDMMapHistoryViewController.m */,
+				7B1CEDB418FAA180A57B067052A72B39 /* SDMMapMainController.h */,
+				212E3A49BAF7260A5AE9860921E6A964 /* SDMMapMainController.m */,
+				F417969B4D0F7A0EE347289A796DDD87 /* SDMMapSearchDetailViewController.h */,
+				27BB89A9133644D295108F17C14E1E6F /* SDMMapSearchDetailViewController.m */,
+				3C8748DCA81BF1DD9AC218D6FD0A8FA0 /* SDMMapSearchResultViewController.h */,
+				BD136F0FB2559AF2630752647D86FB3B /* SDMMapSearchResultViewController.m */,
+				CC4623747EB47A758EDCE594C070C1CE /* SDMSearchResultListVC.h */,
+				B6671B846E356AF8E9576EA06706E541 /* SDMSearchResultListVC.m */,
+				370546F2EF2A079F6CC847E2D4102C2C /* SDMSearchResultListVC.xib */,
+				B196BF099D6F3369A450C8FC7F3450F5 /* SearchResultVC.h */,
+				068C522B0C026042E72A529DF586B978 /* SearchResultVC.m */,
+			);
+			name = Map;
+			path = Map;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1069BA841A600907D46795B75E621855 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				918AAA1C30E92B24B1765709746E6910 /* Products */,
+				EB5AC4C598AE97CBD0527DA13BB42E60 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D86E9E04F7C0B349C306C971DB685D46 /* Dealer */ = {
+			isa = PBXGroup;
+			children = (
+				C3A83713214F3AC6DFD8CFD03BAB9407 /* SDMDealerViewController.h */,
+				5B36D6B963F9033E6FAFF0CC87E00F8A /* SDMDealerViewController.m */,
+			);
+			name = Dealer;
+			path = Dealer;
+			sourceTree = "<group>";
+		};
+		EB5AC4C598AE97CBD0527DA13BB42E60 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C8CF4774AFF7FB3BAC4A1BF72A5A7E5 /* Pods-SDMMapSearchKit_Example */,
+				19813128E4D33365A088B62549DC4902 /* Pods-SDMMapSearchKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EDF0B1447D6AF4B6CC688904B134F4C0 /* SDMMapSearchKit */ = {
+			isa = PBXGroup;
+			children = (
+				3CA6A29EECF866550676195D026435B3 /* ReplaceMe.m */,
+				9F900B2275D051B629F1075CBC5C77EB /* ToyotaType-Bold.ttf */,
+				BB5BCC0865323C33DF375486F5372C41 /* ToyotaType-Regular.ttf */,
+				2177258140951B4B8B1C59682F18164D /* ToyotaType-Semibold.ttf */,
+				38F86DF01D385B4336E5DB9879B5DBD2 /* toyotatype_bold.otf */,
+				BF90C3DC08F5B00BA9281AFFB7A39617 /* toyotatype_regular.otf */,
+				230AD691F20DFD10F07ADD3329CB224B /* toyotatype_semibold.otf */,
+				BC84D9CEBB6468E454C1944F97B2202A /* Base */,
+				B9B995775CB79D93AFBB3DB3249C54A5 /* Controller */,
+				0FD25E0998ED2B437BD446E3E07628E8 /* Model */,
+				9A50A453E4B46DA01A5A5D421FC289D2 /* Pod */,
+				08A31FE5F133C9197EC9C0F9E5BE89CC /* Support Files */,
+				1555D8AE8E341DF1466BA0AF28901AF3 /* View */,
+			);
+			name = SDMMapSearchKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F4405BB996A2DF60B884668AB006379A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A2F37C0F5180E29221B5195A0747514C /* AppDelegate.h */,
+				2C3FEC0B7BE8F244CEC3BE88042A425A /* AppDelegate.m */,
+				2F7D71570482087B355F86231A393213 /* CustomWebView.h */,
+				3F3F79D838441053C10F3A3F121D4F3A /* CustomWebView.m */,
+				DA4BA9A15C872360C429D7DA416AFD31 /* RootTabbarVC.h */,
+				2813F7C433AED73CA0B2ED49B251A056 /* RootTabbarVC.m */,
+				B830EAAA298E2342CAB6B58E39E98543 /* ToyotaSearch-Bridging-Header.h */,
+			);
+			name = Common;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FF6767260A66A46C1E6609A46086F2CC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24284E92B38D28863D90D00089116809 /* VehicleViewController.swift */,
+				4958CB0996A9808640F8CC0D1B5641F6 /* VehicleViewController.xib */,
+			);
+			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24CB87AC6987FAA2B8632C2C90F00D1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16B137BE787C8F0F812EB9DC4CA16D4 /* APIModel.h in Headers */,
+				CA93D88E4CAFCBFDBB0BC0B2B5CF4B18 /* AppDelegate.h in Headers */,
+				AAD1F1D7E0025B3EE43F24E861921DBD /* BaseTableView.h in Headers */,
+				0E9383B033803963088ABFF93D160A4E /* BaseViewController.h in Headers */,
+				AC7867A4CFD5D415BCE367987B258781 /* BaseViewModel.h in Headers */,
+				262C0D8482EBFCC79A0DA460E6878831 /* BrunckpickKindView.h in Headers */,
+				1E5812604D33AE5D42C2AAA8D9085D20 /* CallRSACell.h in Headers */,
+				02CB2C21802215B087324939C63FB7D1 /* ChooseImgView.h in Headers */,
+				15D9BD1E6F6A71ACADE595DA2F480DC4 /* CustomWebView.h in Headers */,
+				F7BA96B3D71F7E2B838510C1907D35F9 /* FavoriteListCell.h in Headers */,
+				2F7AF2016E75D75BE27DDE2DB1C64B39 /* FavoriteListModel.h in Headers */,
+				D6E04EAB7063BE0571327CB755A72360 /* FavoritesView.h in Headers */,
+				891D06DE070F25F13F8B722EB38E7D6A /* HistoryModel.h in Headers */,
+				7DAD4EDE926F7BF8051AE4AE8135F428 /* HomePageVC.h in Headers */,
+				472C6EE335BD492A5F03621F2736BA6F /* JumpVC.h in Headers */,
+				2A561525D09607E6F81E0F680D84CF00 /* LoginOutView.h in Headers */,
+				7014BD326E9F8D8DC5E157781DC38C76 /* MapBaseViewController.h in Headers */,
+				CE71BFD715896A518301AB67BAC031D0 /* MapHistoryView.h in Headers */,
+				E5BFE3E58F9451423E6CEB42500024F5 /* MyServiceVC.h in Headers */,
+				78CF8880A3BC33885E7E9DA353E89661 /* PhotoCollectionViewCell.h in Headers */,
+				401174E7BC3481A0DEF1D5861000EE53 /* PhotosModel.h in Headers */,
+				A4FE93001ABF248850BEB20B419B3F34 /* RequestHeaderManager.h in Headers */,
+				C3011C26577F0970543085FAFC058C66 /* RootTabbarVC.h in Headers */,
+				5E988984391C048E945CBEE94D45A1B4 /* SDMBrunckPicksView.h in Headers */,
+				C4D297F4E9F6F270427FB29294C49456 /* SDMChooseKindView.h in Headers */,
+				45C561FFF3B5674A2367663B30E7FD90 /* SDMCKScrollView.h in Headers */,
+				748CD4EE0753FCEC640F3D3203DCCB66 /* SDMDealerViewController.h in Headers */,
+				E059288D6000E2E51EB7ED8C3BD468BF /* SDMDrivingRangeCell.h in Headers */,
+				C5C8183A78019153D4A8B9B242EC0E94 /* SDMFaVoriteAndHistoryViewController.h in Headers */,
+				B4C6593E3439C33C193B704E0D00B09D /* SDMFavoriteTopView.h in Headers */,
+				8FEC277845EAC04B0B6A5B533C185643 /* SDMFavoriteViewController.h in Headers */,
+				BCD43FDB350AC6595BA391E05F7EF793 /* SDMFindMyCar.h in Headers */,
+				0CBD062A5CE0E98366D484D60980780E /* SDMHistoryTopView.h in Headers */,
+				0B98E0BAED5BDAED0F26861C19B5C72F /* SDMHistoryViewController.h in Headers */,
+				FA3750F23490A00A548E206AD50D0EC2 /* SDMLandingView.h in Headers */,
+				AD3E4AFDBCFA6495C9E0DAD54BC13579 /* SDMLoginViewController.h in Headers */,
+				D6F1A1A431F294A772BB0B3476CD130F /* SDMMainKindView.h in Headers */,
+				80C420D7606A270FFCD86A92AC8937C2 /* SDMMapHistoryViewController.h in Headers */,
+				E0DD76686A9248F727710885AF6BB860 /* SDMMapMainController.h in Headers */,
+				ECBAA3523138C22B3388073F68E3F34B /* SDMMapSearchDetailViewController.h in Headers */,
+				C282B04B2792BD5BF9043A1C77338214 /* SDMMapSearchKit-umbrella.h in Headers */,
+				92EEEE64F44120C83470CE631B794FB6 /* SDMMapSearchResultCell.h in Headers */,
+				7E72AB1C3476A6ED06C48E3F4390DEE6 /* SDMMapSearchResultViewController.h in Headers */,
+				A07742C219773C5A52E4FE5C1B6DEAEB /* SDMMenuViewController.h in Headers */,
+				FDE9715BDB7410D4FCB72CA3DA5F97D4 /* SDMMyCarLocationView.h in Headers */,
+				AA565B583A98FFC072540828BE9EE226 /* SDMSearchResultListVC.h in Headers */,
+				0ED18E800B90C828B0C3583F0B29F73B /* SDMVehicleLocationCell.h in Headers */,
+				EFD30F7A0499C6CC7E26A748CCE4B034 /* SearchResultCell.h in Headers */,
+				9FEF5BE01A738358800E610568E4A432 /* SearchResultModel.h in Headers */,
+				3C2D60D3225C1BA469F6DC19589104C0 /* SearchResultVC.h in Headers */,
+				31F53C99A49D0506018CCA17891C654C /* SearchResultViewModel.h in Headers */,
+				C4D08070771DA8066E0A301F8B867986 /* SearchTopView.h in Headers */,
+				ECDF4F19A0882A63C57883C3F23C6119 /* SearchView.h in Headers */,
+				8B5C32AEAB353B423B1245A913932AD6 /* TempOneView.h in Headers */,
+				76C16D50D45AB765FEE77CC4A58B6F90 /* ToyotaSearch-Bridging-Header.h in Headers */,
+				CF6D98F282B0BAD645928DEA9A5BA15C /* VoiceSpeechView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732D9E4C9034558414B34F85811F098A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C833B786055A1ABA9109230D562B9D32 /* Pods-SDMMapSearchKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77C3E204F784AAEE170E4F40E6CA17E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1E6DF1B7D0214BD8800559F8E5E5E6 /* Pods-SDMMapSearchKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00403BD94FBA3E21E5CD001A377FF87B /* Pods-SDMMapSearchKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAE640841544E60CDA0CFCB703ED832 /* Build configuration list for PBXNativeTarget "Pods-SDMMapSearchKit_Tests" */;
+			buildPhases = (
+				77C3E204F784AAEE170E4F40E6CA17E0 /* Headers */,
+				6194F2ABEA161EC52BFE4B56BFCF6973 /* Sources */,
+				AB796B97A4E29404DE5590EE3DDDEDE4 /* Frameworks */,
+				51E4CBD0BB2F1155144DC54F86F30B7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F8A85B9A9E10C6DE0D0AF8C833D3F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SDMMapSearchKit_Tests";
+			productName = "Pods-SDMMapSearchKit_Tests";
+			productReference = 0464D7FD17708BA1E80169A410894A9B /* Pods_SDMMapSearchKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		879A5EE6798CB7E52290B650A76D8D1B /* Pods-SDMMapSearchKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0406E4A5D59747B8D2D946F1AFBF353 /* Build configuration list for PBXNativeTarget "Pods-SDMMapSearchKit_Example" */;
+			buildPhases = (
+				732D9E4C9034558414B34F85811F098A /* Headers */,
+				0758793AEDE068F30F1401FE7B54BB89 /* Sources */,
+				A50C1006D968E18587D09B17884C4133 /* Frameworks */,
+				3070E85C5E90202010D68B43C11524C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1ED04FA9FC0FF9ABBACF7F5581AFA2 /* PBXTargetDependency */,
+			);
+			name = "Pods-SDMMapSearchKit_Example";
+			productName = "Pods-SDMMapSearchKit_Example";
+			productReference = 6916A8CAEDC001ABEA99B60FCF451186 /* Pods_SDMMapSearchKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6B4A6795FAF2ACEF2888A1266E076D9 /* SDMMapSearchKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48FC5F122553754E797C2E8A1A22E18C /* Build configuration list for PBXNativeTarget "SDMMapSearchKit" */;
+			buildPhases = (
+				24CB87AC6987FAA2B8632C2C90F00D1D /* Headers */,
+				2C0CB95F8316E2B17407DF3D1EB94D95 /* Sources */,
+				A886635D7A4CA3B342CB3B8910A75D71 /* Frameworks */,
+				310DF581DB9AACC9D0313F4468324769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDMMapSearchKit;
+			productName = SDMMapSearchKit;
+			productReference = 33A54EBBB7DA3C59074C596843633427 /* SDMMapSearchKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 918AAA1C30E92B24B1765709746E6910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879A5EE6798CB7E52290B650A76D8D1B /* Pods-SDMMapSearchKit_Example */,
+				00403BD94FBA3E21E5CD001A377FF87B /* Pods-SDMMapSearchKit_Tests */,
+				C6B4A6795FAF2ACEF2888A1266E076D9 /* SDMMapSearchKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3070E85C5E90202010D68B43C11524C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310DF581DB9AACC9D0313F4468324769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E4CBD0BB2F1155144DC54F86F30B7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0758793AEDE068F30F1401FE7B54BB89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE5858C3C11BB264B7D868868947498 /* Pods-SDMMapSearchKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C0CB95F8316E2B17407DF3D1EB94D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC88DE6DCE0EC89B3085B17D29A017B /* 2021_Prius_Prime_Red_005-600x352 1.png in Sources */,
+				17237FAF4F894631A1E3324701515D86 /* APIModel.m in Sources */,
+				1F8BE1B76BA41B4597C95B5ADEF5188F /* AppDelegate.m in Sources */,
+				200CFAC26E4C35B97DD40736BF27F5D5 /* BaseTableView.m in Sources */,
+				AA7CC275BCFA3D48518BF1224B722346 /* BaseViewController.m in Sources */,
+				787B776311AB2ECAB2930F1912D5D6D2 /* BaseViewModel.m in Sources */,
+				7C51FEE9B8118DA9689B92EB677A6740 /* BrunckpickKindView.m in Sources */,
+				AF9C0043E9981B426A106D92B046BECE /* BrunckpickKindView.xib in Sources */,
+				067D8DE1CA9E8E6DF53ABF73F98E0A65 /* CallRSACell.m in Sources */,
+				5A3FFE4782A2E2250F942AECBD661807 /* CallRSACell.xib in Sources */,
+				7D90A8232A5CF39DE08D347144C6356A /* ChooseImgView.m in Sources */,
+				A7AD95B64D03D275B094664FA17FD888 /* CustomWebView.m in Sources */,
+				2AF6070F8C8E5D40B94C1E94A518C5B3 /* FavoriteListCell.m in Sources */,
+				441294A83F77D685104B15D4C0A4453B /* FavoriteListCell.xib in Sources */,
+				F7798995368C0A31FBF6A3FEE27EE8BA /* FavoriteListModel.m in Sources */,
+				B22E6A12640F6B5D136591E65CC282B7 /* FavoritesView.m in Sources */,
+				044F2AE5376E9CD26F5BA90CE414E525 /* HistoryModel.m in Sources */,
+				4EFCF0780DE2F053A64C00BC2C676B6A /* HomePageVC.m in Sources */,
+				6523FAA6B7797FE29451E9EB0B871C73 /* HttpRequest.swift in Sources */,
+				EC0B0C1F7F74C4EF71D7D986E9594E23 /* JumpVC.m in Sources */,
+				170A6BA0FE94CB2C29A1F708F4C81E35 /* latest1.png in Sources */,
+				6F3844D4794D57CA8A7C3AA5C3775E72 /* latest2.png in Sources */,
+				9A111111BF486F9B38A7EBC61BCCB2B3 /* latest3.png in Sources */,
+				EF684C5C1BDBFDAAFB72CCCA9CB78001 /* latest4.png in Sources */,
+				8E51C5EDF3F034FB0756E6CBB557E46D /* latest5.png in Sources */,
+				933FD6AEBB9AC8BF6DEC1E0DF0A0874C /* LoginOutView.m in Sources */,
+				D38AB1CF3EE0F3038823201A4D28F5B6 /* LoginOutView.xib in Sources */,
+				59128DBEE02A6D49C1BA44C0B4732468 /* MapBaseViewController.m in Sources */,
+				868857FC70C73B06B91084F129AB50B9 /* MapHistoryView.m in Sources */,
+				83839FBA5034A15D26387200C7FCB072 /* MapHistoryView.xib in Sources */,
+				A93893866B3C15FF2E8D7FFBD8117D48 /* ModelCar.png in Sources */,
+				45242FDF1B06F0CD91DB1B46F10DD053 /* MyServiceVC.m in Sources */,
+				CD895773D0060095904A1C8FB9DF0B85 /* PhotoCollectionViewCell.m in Sources */,
+				D01938C74C4ED5BA947F6AFDA4326177 /* PhotoCollectionViewCell.xib in Sources */,
+				8410B08EF06C0ECCB288983F643C78BF /* PhotosModel.m in Sources */,
+				9FA4DC8CF82175062C43D91ED13552B3 /* Rectangle1.png in Sources */,
+				E2B108A67BD6C6E7BEFB61CDFFA3AF03 /* Rectangle2.png in Sources */,
+				D18B011ACDF2F4A63A88358A7634EFCF /* Rectangle3.png in Sources */,
+				CA632EFC5BD4E9BFD0B5FA909653A949 /* Rectangle4.png in Sources */,
+				E61ABEF2982D58F852F3AD48751C29EA /* Rectangle5.png in Sources */,
+				6C2D77EF85361062F8D68A32F77D73D0 /* Rectangle6.png in Sources */,
+				39FAE7017CF90C2EE06EC5C4BC0491B3 /* ReplaceMe.m in Sources */,
+				6BA39D8476DF654E9F2CC89D4FDCF56C /* RequestHeaderManager.m in Sources */,
+				EB6C70164764C9616AAA4310BD300B58 /* RootTabbarVC.m in Sources */,
+				323DD4F3400C83E81E2C0063BB2BA041 /* SDMAPIModel.swift in Sources */,
+				9AB67559EC0F2A044275767017989E5F /* SDMBaseModel.swift in Sources */,
+				F4426DF680EF4CE5EDD7F06017401C45 /* SDMBaseViewController.swift in Sources */,
+				BC1F8ADE3098FD42AF1EB55DD020472E /* SDMBaseViewModel.swift in Sources */,
+				A0A492796BE6B09511C4334872710A6A /* SDMBrunckPicksView.m in Sources */,
+				E8C26765C9DFF52D2C34C7A779AB7677 /* SDMCheckVersionModel.swift in Sources */,
+				E8EA249E874E504D1779BFDC80EC2D85 /* SDMChooseKindView.m in Sources */,
+				B87370B9C50274C42DFA2D67458C8105 /* SDMChooseKindView.xib in Sources */,
+				FF94AA966D413002F712A7676ED3BE07 /* SDMCKScrollView.m in Sources */,
+				E9E598234227D6DFA88B35921ED49F93 /* SDMDealerViewController.m in Sources */,
+				5AD35D17A0ADF48E46BC368D52E6AE7D /* SDMDrivingRangeCell.m in Sources */,
+				70DA6BF52A9422DADB2A2FCA6D7916F0 /* SDMDrivingRangeCell.xib in Sources */,
+				9332FC3F128C4134729A14D5DA9987E9 /* SDMFaVoriteAndHistoryViewController.m in Sources */,
+				353D5474D49789C5807E358D2859F9CA /* SDMFavoriteTopView.m in Sources */,
+				6EFE45C9C8CCFD90FEE77E04DBE6F3A0 /* SDMFavoriteTopView.xib in Sources */,
+				EBB3E3D4ED7A8121B1A1B4AE6C5109BE /* SDMFavoriteViewController.m in Sources */,
+				2D6E5B037058798EF133A0AA8E5B36DF /* SDMFavoriteViewController.xib in Sources */,
+				C5322D6821A9FD8EA4418EC6BE743647 /* SDMFindMyCar.m in Sources */,
+				026AB883DE72496464326F868ADEBFAA /* SDMForgotPasswordAuthorizationViewController.swift in Sources */,
+				ABB309BD106E0F943E420E66DEB5842C /* SDMForgotPasswordAuthorizationViewController.xib in Sources */,
+				71CB4EB43A59A28C39173A8D60EAE12E /* SDMForgotPasswordEnterEmailViewController.swift in Sources */,
+				2E10DBCEDD15884772F9858D8D4418FE /* SDMForgotPasswordEnterEmailViewController.xib in Sources */,
+				7B5739E358FEB0B09D18118E21D0CA36 /* SDMForgotPasswordEnterNewPasswordViewController.swift in Sources */,
+				BB50A8A5E678BDE0EF72212DB8F4136E /* SDMForgotPasswordEnterNewPasswordViewController.xib in Sources */,
+				4DA94E7C05448C9D78442C79A45CB24B /* SDMHistoryTopView.m in Sources */,
+				C51C361CFC2F95045C55AC9EED048014 /* SDMHistoryTopView.xib in Sources */,
+				CB67D689EBB9FC5ABDA4CE41E857D568 /* SDMHistoryViewController.m in Sources */,
+				242F463BC799BD72A13EA86AF4432E1B /* SDMHistoryViewController.xib in Sources */,
+				ED866C0FA0755A4CF6221790FDCEF116 /* SDMIDMLoginViewController.swift in Sources */,
+				2974BE49BCB2D41381E0D9FD4B67EF19 /* SDMIDMLoginViewController.xib in Sources */,
+				89FD1670D72124575B752CE66F71F7E9 /* SDMLandingView.m in Sources */,
+				1D886161501762EE5E36C06A6539A190 /* SDMLandingView.xib in Sources */,
+				4489E43178CC7920C79B8AEB890F1DE6 /* SDMLocalizable.swift in Sources */,
+				6F0A92D93739C9303BFAA2DAD949F29E /* SDMLoginViewController.m in Sources */,
+				CF3C7060BCAC47B3AC8FC0DB7B3E7E01 /* SDMLoginViewController.xib in Sources */,
+				48148E8B2A9A0A53ACF544911FF89849 /* SDMMainKindView.m in Sources */,
+				B8623E85EEB40274284FE4AA91D132CA /* SDMMapHistoryViewController.m in Sources */,
+				690492E3984C064AA8894A8E58E2EE77 /* SDMMapMainController.m in Sources */,
+				7FA21885FC7097D4B906F6150BF24D1D /* SDMMapSearchDetailViewController.m in Sources */,
+				1C4457F85EB40427EF4EA60847C1FB95 /* SDMMapSearchKit-dummy.m in Sources */,
+				A263F9B4BCD76A1837ED9EC64F6E1946 /* SDMMapSearchResultCell.m in Sources */,
+				DFA790CB11CE3ECDEDFBF41F2893AADD /* SDMMapSearchResultCell.xib in Sources */,
+				6B49B90CB1D59854DFA612D6C5621AC1 /* SDMMapSearchResultViewController.m in Sources */,
+				A5BBE0F8983855483B86DFED7071D314 /* SDMMenuViewController.m in Sources */,
+				C937F4C20062D4F061AB8F80213BFAE7 /* SDMMyCarLocationView.m in Sources */,
+				9F376813A32581412DE95CDFEFE97FCB /* SDMMyCarLocationView.xib in Sources */,
+				35BEDD485BF072055F24BDA2041B01A7 /* SDMRegisterInputEmailViewController.swift in Sources */,
+				4928E92488E09A55F157CFC04564932F /* SDMRegisterInputEmailViewController.xib in Sources */,
+				BB7A70E0601EB9C67D0ABE8FC1564A5F /* SDMRegisterInputUserInfoViewController.swift in Sources */,
+				69B46C2B04A55D9BED2D43405D1CD068 /* SDMRegisterInputUserInfoViewController.xib in Sources */,
+				C4702CE546258704801976A71DE6EC54 /* SDMRegisterSuccessViewController.swift in Sources */,
+				FFDAB9A474FAEE0F74203C10148EB4A7 /* SDMRegisterSuccessViewController.xib in Sources */,
+				92AA8E59551616B8BF092CF09D5C719A /* SDMRequestStructureManager+Map.swift in Sources */,
+				AC9BD1081FCED7835BE61C0C0E5B1854 /* SDMRequestStructureManager.swift in Sources */,
+				83F72719D189236A3917B944E203F7CF /* SDMSearchResultListVC.m in Sources */,
+				A62344D642559A1938AC0481AA6B6D1B /* SDMSearchResultListVC.xib in Sources */,
+				7992D31F6E831FD4B0A62F7C0188C27E /* SDMServiceConfiguration.swift in Sources */,
+				D53DDAD6AA082F8EB0C3B0EF2659F86C /* SDMSessionManager.swift in Sources */,
+				E1F87950D1EB63F15C51BF8580A70F5B /* SDMSwiftToOC.swift in Sources */,
+				D5A4C8F759481A378FB7DB86C66A7F0E /* SDMToyotaRequestInterceptor.swift in Sources */,
+				AFD86940D6D746B8AB0B910C1DF40A95 /* SDMUserDataManager.swift in Sources */,
+				8158F2CD4AE0A8D2CFBBC8DCDA07D70F /* SDMUserDefaults.swift in Sources */,
+				8DB9372A64317BEF5AD2CBC8FCFA1202 /* SDMVehicleLocationCell.m in Sources */,
+				1A4CB983523B64A2C0C7EFE17766852A /* SDMVehicleLocationCell.xib in Sources */,
+				3593C293A617B75DDF770F8F2C34C2CB /* SDMVehicleStatusModel.swift in Sources */,
+				898E7E460AD3FC46CAB373B627006A0C /* SDMVehicleViewModel.swift in Sources */,
+				33F312FBA6BEFCA79D6DA08769D81CBB /* SearchResultCell.m in Sources */,
+				B8BFB8B2F87EBEBF98483C97A0F095F9 /* SearchResultCell.xib in Sources */,
+				7C2999354DC7ABCB19CDCC51421C27E5 /* SearchResultModel.m in Sources */,
+				034B2257498ACA11C91B149661E2732D /* SearchResultVC.m in Sources */,
+				99E8E5C31E1752CBFC58FE98DA9B242F /* SearchResultViewModel.m in Sources */,
+				BDAEBD233CF1B05EE3C99174A18FD63B /* SearchTopView.m in Sources */,
+				64DF9B0848C8AAF3FD4754E114AE0728 /* SearchTopView.xib in Sources */,
+				99689BEBF59C88EC1B94DFBB5EC7B53D /* SearchView.m in Sources */,
+				38F8A2318330E2ACD965D80FAA987423 /* SearchView.xib in Sources */,
+				441AB2796868BDFCE5ADF059088070B4 /* TempOneView.m in Sources */,
+				FC02E6DFB9D12CC3765D3A8A9E44F3D9 /* TempOneView.xib in Sources */,
+				BF5502065EE372CD7278D2B2D3CE0FAF /* ToyotaType-Bold.ttf in Sources */,
+				4A25DF466C7D4765B4F39A1148D64C0A /* ToyotaType-Regular.ttf in Sources */,
+				FDD9463B4901AC715EB42C04F37A0D9D /* ToyotaType-Semibold.ttf in Sources */,
+				435F0CE9333922C915C9439CE9D817AC /* toyotatype_bold.otf in Sources */,
+				4BE6A5E01A6ABE0D1270AD9B2524335A /* toyotatype_regular.otf in Sources */,
+				DB788FB8D3545371785071B103692819 /* toyotatype_semibold.otf in Sources */,
+				F13C0F5A8A936A93D1124C702284C08F /* VehicleViewController.swift in Sources */,
+				EAE44AB6B29317DE40D3E72CF9DDE2C1 /* VehicleViewController.xib in Sources */,
+				30A6358BE1E8C542A747F374F8612E02 /* VoiceSpeechView.m in Sources */,
+				D89AD9C6B54C2CCD7AE228652E2F6F6E /* VoiceSpeechView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6194F2ABEA161EC52BFE4B56BFCF6973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5270C335B5DB0342AFFDA27FA21AE9 /* Pods-SDMMapSearchKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D1ED04FA9FC0FF9ABBACF7F5581AFA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDMMapSearchKit;
+			target = C6B4A6795FAF2ACEF2888A1266E076D9 /* SDMMapSearchKit */;
+			targetProxy = 09E6E332DEFF4AA9AF8C169923AFF528 /* PBXContainerItemProxy */;
+		};
+		A8F8A85B9A9E10C6DE0D0AF8C833D3F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SDMMapSearchKit_Example";
+			target = 879A5EE6798CB7E52290B650A76D8D1B /* Pods-SDMMapSearchKit_Example */;
+			targetProxy = ADA2006482A81C58C69020D345AAB3DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		085118F8C0F9301721077BB613DDFB60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913F8CAFD1CA5DF0A7DB8B0E93CDBEE5 /* Pods-SDMMapSearchKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDMMapSearchKit_Example/Pods-SDMMapSearchKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDMMapSearchKit_Example/Pods-SDMMapSearchKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0983C1FD87D98028F5E0DB6C2867BE11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5850E2436B40743731EBB840DB51E559 /* Pods-SDMMapSearchKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDMMapSearchKit_Tests/Pods-SDMMapSearchKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDMMapSearchKit_Tests/Pods-SDMMapSearchKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4410CF0A53684E33D1C31702F71808CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A4EF7DA3F14B24ABA10376422A5C9A /* SDMMapSearchKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDMMapSearchKit/SDMMapSearchKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDMMapSearchKit/SDMMapSearchKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDMMapSearchKit/SDMMapSearchKit.modulemap";
+				PRODUCT_MODULE_NAME = SDMMapSearchKit;
+				PRODUCT_NAME = SDMMapSearchKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D2571ED1962011D6B165654BEA568D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF55ED256BB93935D7A10168475C39D5 /* Pods-SDMMapSearchKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDMMapSearchKit_Tests/Pods-SDMMapSearchKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDMMapSearchKit_Tests/Pods-SDMMapSearchKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CE66A9540564DF58AA42161A5F2D7386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A506FD61112873AFD3DF7437F1A3E92 /* SDMMapSearchKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDMMapSearchKit/SDMMapSearchKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDMMapSearchKit/SDMMapSearchKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDMMapSearchKit/SDMMapSearchKit.modulemap";
+				PRODUCT_MODULE_NAME = SDMMapSearchKit;
+				PRODUCT_NAME = SDMMapSearchKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4BD05605B13DAA3489E9E873D430790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3508FCE1A28ACBFF1380C7D575F303 /* Pods-SDMMapSearchKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SDMMapSearchKit_Example/Pods-SDMMapSearchKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SDMMapSearchKit_Example/Pods-SDMMapSearchKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DAE640841544E60CDA0CFCB703ED832 /* Build configuration list for PBXNativeTarget "Pods-SDMMapSearchKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0983C1FD87D98028F5E0DB6C2867BE11 /* Debug */,
+				5D2571ED1962011D6B165654BEA568D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48FC5F122553754E797C2E8A1A22E18C /* Build configuration list for PBXNativeTarget "SDMMapSearchKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE66A9540564DF58AA42161A5F2D7386 /* Debug */,
+				4410CF0A53684E33D1C31702F71808CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0406E4A5D59747B8D2D946F1AFBF353 /* Build configuration list for PBXNativeTarget "Pods-SDMMapSearchKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085118F8C0F9301721077BB613DDFB60 /* Debug */,
+				F4BD05605B13DAA3489E9E873D430790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

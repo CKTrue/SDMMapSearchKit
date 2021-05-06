@@ -1,0 +1,16 @@
+PODS:
+  - SDMMapSearchKit (0.1.0)
+
+DEPENDENCIES:
+  - SDMMapSearchKit (from `../`)
+
+EXTERNAL SOURCES:
+  SDMMapSearchKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDMMapSearchKit: 602f187c24721af8aee44340c5d9d0dab6b4e1c5
+
+PODFILE CHECKSUM: 3275db7de596217b828286455a0d361fcb27610a
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,6 @@
+framework module SDMMapSearchKit {
+  umbrella header "SDMMapSearchKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
